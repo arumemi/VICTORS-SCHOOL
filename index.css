@@ -165,9 +165,184 @@ body.dark.hero{
 
 
 
+/*==========WHY CHOOSE US==========*/
 
 
 
+
+
+.whyUs__container{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 5rem;
+}
+.whyUs__left h4{
+   color: var(--color-primary);
+   margin-bottom: 1rem;
+}
+.whyUs__left p{
+   margin: 0.5rem 0 2.5rem;
+}
+.whyUs__right{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 3rem;
+}
+.whyUs__item{
+   background: var(--color-gray-0);
+   padding: 2rem;
+   border-radius: var(--radius-6);
+   text-align: center;
+   box-shadow: 0 1rem 0 var(--color-gray-100);
+   transition: var(--transition);
+}
+.whyUs__item:hover{
+   box-shadow: none;
+}
+.whyUs__item span{
+   background: var(--color-primary);
+   width: 4.5rem;
+   aspect-ratio: 1/1;
+   border-radius: 1.5rem;
+   color: var(--color-gray-0);
+   font-size: 1.6rem;
+   display: grid;
+   place-items: center ;
+   margin-inline: auto;
+  
+}
+.whyUs__item:nth-child(1) span{
+   background: var(--color-danger);
+
+}
+.whyUs__item:nth-child(2) span{
+   background: var(--color-success);
+} 
+ .whyUs__item:nth-child(5) span{
+   background: var(--color-purple);
+ }
+ .whyUs__item:nth-child(3) span{
+   background: var(--color-info);
+ }
+.whyUs__item h4{
+   margin: 2rem 0 0.6rem;
+}
+
+
+
+
+/*==========steps to our program==========*/
+
+
+
+
+.ourProcess{
+   background: var(--color-gray-0);
+   text-align: center;
+}
+.ourProcess__list{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 4rem;
+   margin-top: 7rem;
+
+}
+.ourProcess__item{
+   background: var(--color-gray-700);
+   color: var(--color-gray-100);
+   padding: 3rem 2rem; 
+   border-radius: var(--radius-6);
+   box-shadow: 0 1rem 0 var(--color-gray-100);
+   position: relative;
+   transition: var(--transition);
+}
+.ourProcess__item:hover{
+   box-shadow: none;
+}
+.ourProcess__item:nth-child(1){
+   background: var(--color-success);
+}
+.ourProcess__item:nth-child(3){
+   background: var(--color-danger);
+}
+.ourProcess__item h4{
+   color: var(--color-gray-0);
+   margin: 2rem 0 0.5;
+}
+.ourProcess__item span{
+   font-size: 2.5rem;
+   color: var(--color-gray-0);
+   display: inline-block;
+}
+.ourProcess__item h2{
+   position: absolute;
+   top: -2rem; 
+   left: 5rem;
+   background: var(--color-gray-0);
+   width: 4.5rem;
+   aspect-ratio: 1/1;
+   border-radius: var(--radius-4);
+   display: grid;
+   place-items: center;
+   box-shadow: 0 0.5 0 var(--color-gray-100);
+}
+
+
+
+/*==========OUR PACKAGES SECTION ==========*/
+
+
+
+
+.packages__buttons{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 1rem;
+   width: max-content;
+   margin: 4rem auto 2rem;
+   
+}
+
+.packages__buttons button{
+   background: var(--color-gray-0);
+   color: var(--color-gray-900);
+   border-radius: var(--radius-3) ;
+   padding: 1.5rem 3rem;
+   box-shadow: 0 0.7rem 0 var(--color-gray-100);
+}
+.packages__buttons button:hover{
+   background: var(--color-gray-900);
+   color: var(--color-gray-0);
+   box-shadow: none;
+}
+table{
+   width: 100%;
+}
+thead th{
+   padding: 1rem;
+   text-align: left;
+}
+tbody td{
+   padding: 1rem;
+}
+tbody tr{
+   animation: identifier 1s ease forwards;
+}
+tbody tr:nth-child(odd){
+   background: var(--color-gray-0);
+}
+
+/*aminaation for destination packages*/
+
+@keyframes identifier{
+   0% {
+      Opacity: 0;
+   }
+   100%{
+      Opacity: 1;
+   }
+}
 
 
 
