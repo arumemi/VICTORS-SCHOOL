@@ -190,12 +190,49 @@ nav a:active{
 }
 
 
+/*=========page header styles==========*/
+
+.page__header{
+   height: 15rem;
+   background: url(./images/office\ reseachrs.jpg) center center/cover;
+   display: grid;
+   place-items: center;
+   margin: 4rem 0;
+   position: relative;
+}
+.page__header::before{
+   display: block;
+   width: 100%;
+   height: 100%;
+   position: absolute;
+   top: 0;
+   left: 0;
+   content: "";
+   background:#030f1b;
+   opacity: 0.75;
+}
+.page__header-content{
+   width: 50%;
+   text-align: center;
+   z-index: 1;
+}
+.page__header-content * {
+   color: white;
+}
+.page__header-content h2{
+   margin-bottom: 0.7rem;
+}
 
 
 
 
 
-/*==========media queries for small screen==========*/
+/*=========size for SMALL SCREEN SIZE==========*/
+
+
+
+
+
 
 
 
@@ -280,16 +317,23 @@ nav a:active{
    .nav__menu-open{
       display: inline-block;
    }
-}
-.footer__container{
+   .page__header{
+      height: 20rem;
+   }
+   .page__header-content{
+      width: var(--container-w-md);
+   }
+   .footer__container{
    flex-direction: column;
    gap: 5rem;
-}
- .footer__menu{
+   }
+   .footer__menu{
    flex-direction: column;
    gap: 1.5rem;
- }
- .footer__socials{
+   }
+   .footer__socials{
    gap: 2rem;
- }
+   }
 
+
+}
