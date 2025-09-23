@@ -4,6 +4,13 @@
   ],
   "hints": {
     "axe/name-role-value": "off",
-    "detect-css-reflows/composite": "off"
+    "detect-css-reflows/composite": "off",
+    "button-type": "off",
+    "axe/structure": [
+      "default",
+      {
+        "list": "off"
+      }
+    ]
   }
 }
