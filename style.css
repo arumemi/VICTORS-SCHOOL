@@ -298,6 +298,11 @@ nav a:active{
       animation-delay: 1050ms;
       
    }
+   .nav__menu a:nth-child(7){
+      animation-delay: 1220ms;
+      
+   }
+  
   
   
 

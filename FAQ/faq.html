@@ -28,7 +28,8 @@
          <a href="../ABOUT/ABOUT-us.html">About</a>
          <a href="../programs/programs.html">Programs</a>
         <a href="../destination/destination.html">Destination</a>
-         <a href="./FAQ/faq.html" class="active"> FAQs</a>
+        <a href="../Events/events.html">Events</a>
+         <a href="./faq.html" class="active"> FAQs</a>
          <a href="../contact/contact.html">Contacts Us</a>
         </menu>
         <button class="theme__btn"><i class="uil uil-moon"></i></button>
@@ -39,11 +40,140 @@
       </div>
    </nav>
 
+ <!--=========== faq header SECECTION =============-->
 
 
 
+      <section class="pages"> 
+      <header class="page__header">
+         <div class="page__header-content">
+            <h2>frequently Asked Questions</h2>
+         </div>
+      </header>
 
 
+      <menu class="continer faqs">
+          <article class="faq show">
+            <div class="faq__head">
+               <h5>can my family come with me? </h5>
+               <i class="uil uil-angle-down"></i>
+               </div>
+            <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>will i get a work permit while schooling? </h5>
+               <i class="uil uil-angle-down"></i>
+               </div>
+            <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+         <article class=" faq show">
+            <div class="faq__head">
+               <h5>do you offer exchange programs? </h5>
+               <i class="uil uil-angle-down"></i>
+              
+            </div>
+             <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+
+         </article>
+
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>what is the age limit to apply? </h5>
+               <i class="uil uil-angle-down"></i>
+            </div>
+            <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>do you have schorlarship programs? </h5>
+               <i class="uil uil-angle-down"></i>
+              
+            </div>
+             <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>how much is the total cost? </h5>
+               <i class="uil uil-angle-down"></i>
+               </div>
+            <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>do i need to show prov of funds? </h5>
+               <i class="uil uil-angle-down"></i>
+               
+            </div>
+            <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>can i defer my admition? </h5>
+               <i class="uil uil-angle-down"></i>
+              
+            </div>
+             <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>what documents is needed from me? </h5>
+               <i class="uil uil-angle-down"></i>
+               
+            </div>
+            <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>can a non family member sponsor the school journey? </h5>
+               <i class="uil uil-angle-down"></i>
+              
+            </div>
+             <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>do i need to take ielts? </h5>
+               <i class="uil uil-angle-down"></i>
+              
+            </div>
+             <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>how much is processing fees? </h5>
+               <i class="uil uil-angle-down"></i>
+               
+            </div>
+            <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+
+         <article class="faq show">
+            <div class="faq__head">
+               <h5>can i change destination easily? </h5>
+               <i class="uil uil-angle-down"></i>
+               
+            </div>
+            <p>the Processing time is about 2months if you meet up with the nessary requirements</p>
+         </article>
+            <a href="mailto:info.rolayoenterprises@gmail.com" class="btn primary" target="_blank">Have more questions? Ask us directly!</a>
+      </menu>
+
+ </section>  
+         <!--WATSAPP CODE-->
+      <div class="elfsight-app-16623bbb-d0dc-4e1b-9173-9f804e10aefb" data-elfsight-app-lazy></div>
 
        <!--=========== FOOTER SECECTION =============-->
 
@@ -70,5 +200,25 @@
             </menu>
          </div>
       </footer>
-   
+   <script>
+      const faqs = document.querySelectorAll('.faq')
+      faqs.forEach(faq => {
+         faq.addEventListener('click' , ()  =>{
+            faq.classList.toggle('show');
+            if(faq.classList.contains('show')){
+               faq.querySelector('i').className = "uil uil-angle-up"
+            }
+            else{
+                  
+               faq.querySelector('i').className = "uil uil-angle-down"
+            };
 
+         });
+      });
+    </script>
+    <script src="https://elfsightcdn.com/platform.js" async></script>
+   
+    <script src="../main.js"></script>
+  
+    </body>
+   </html>
