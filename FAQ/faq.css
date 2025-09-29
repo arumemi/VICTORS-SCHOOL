@@ -35,11 +35,11 @@
 
 }
 .faq.show {
-   background: var(--color-gray-900);
-   color: var(--color-gray-0);
+   background: var(--color-gray-0);
+   color: var(--color-gray-900);
 }
 .faq.show h5{
-   color: var(--color-danger);
+   color: var(--color-primary);
 }
 .faq.show p{
    display: block;
