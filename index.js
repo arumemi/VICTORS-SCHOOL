@@ -15,9 +15,12 @@
       }
     });
 
+      //starting annimation//
+      AOS.init();
 
 
-//package section for schools
+      
+//package toggle section for schools
 
 const packagesButtons = document.querySelectorAll('.packages__buttons button');
 const packagesTableBody = document.querySelector('.packages tbody');
@@ -144,14 +147,14 @@ const removeActiveClassFromButtons = () =>{
             <tr>
                            
                            
-                              <td>olise COLLEGE</td>
-                              <td>LONDON, U.K</td>
+                              <td>IU INTERNATIONAL UNIVERSITY OF APPLIED SCIENCE</td>
+                              <td>GERMANY</td>
                            </tr>
 
  
                            <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>SRH  HAARLEM</td>
+                              <td>GERMANY & NETHERLANDS</td>
                            </tr>
 
                             <tr>
@@ -171,35 +174,35 @@ const removeActiveClassFromButtons = () =>{
                            </tr>
 
                             <tr>
-                              <td>B P P</td>
+                              <td>HOLMES INSTITUTE DUBLIN (HID)</td>
                               <td>LONDON, U.K</td>
                            </tr>
 
 
                            <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>THOMAS MORE UNIVERSITY OF APPLIED SCIENCES</td>
+                              <td>DUBLIN, IRELAND</td>
                            </tr>
 
                             <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>C3S BUSSINESS SCHOOL</td>
+                              <td>BARCELONA, SPAIN</td>
                            </tr>
 
                             <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>DOMIAN ACADEMY</td>
+                              <td>MALTA</td>
                            </tr>
 
 
                             <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>LA VALLETTE INSTITUTE</td>
+                              <td>MALTA</td>
                            </tr>
 
                             <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>WESTERN BALKANS UNIVERSITY</td>
+                              <td>ALBANIA</td>
                            </tr>
 
                             <tr>
