@@ -198,8 +198,6 @@ const removeActiveClass = () =>{
       
             `
              }
-
-             
              else if(program.classList.contains('programT')){
             program.classList.add('active')
             programDetail.innerHTML = `  
