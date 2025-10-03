@@ -211,11 +211,11 @@ const removeActiveClassFromButtons = () =>{
                            </tr>
 
                             <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>THE NATIONAL MATHEMATICS AND SCIENCE COLLEGE</td>
+                              <td>UNITED KINGDOM</td>
                            </tr>
                            <tr>
-                              <td>B P P</td>
+                              <td></td>
                               <td>LONDON, U.K</td>
                            </tr>
                            
@@ -308,7 +308,7 @@ const removeActiveClassFromButtons = () =>{
 
 
                             <tr>
-                              <td>B P P</td>
+                              <td></td>
                               <td>LONDON, U.K</td>
                            </tr>
 

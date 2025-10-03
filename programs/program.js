@@ -135,12 +135,125 @@ const removeActiveClass = () =>{
             <div class="container programDetail__container">
             <div class="programDetail__left">
                <h2>TOP up program</h2>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, esse voluptatibus corrupti deleniti perspiciatis libero magnam ad tenetur id eum delectus facilis, vel earum, temporibus dignissimos mollitia distinctio necessitatibus facere.</p>
+               <p>Looking to complete your degree abroad? Our International Top-Up Program gives you the chance to transfer credits , finish your studies faster , and earn a globally recognized qualification .Study in world class universitie, gain internatioanl exposure and open doors to global career opportunities</p>
+                  
                <div class="programDetail__images">
-               <div class="programDetail__images">
-                  <div><img src="../images/subject-civil-engineering-student.webp" alt=""></div>
+                  <div><img src="../images/masters-class.jpg" alt=""></div>
+                   <div><img src="../images/Students-on-Campus-YSJ.jpg" alt=""></div>
                </div>
 
+               <h4>top up</h4>
+               <p>Ready to take the next step?
+               
+               Here's what you'll need to apply
+               </p>
+
+               <article>
+                  <h5>Admission Requirements </h5>
+                  <p>
+                  1. Completed Diploma / HND / Associate Degree (or equivalent)
+                  <br>
+                  2. Official academic transcripts
+                  <br>
+                  3. Filled application form + personal statement
+                  4.Recommendation letter (optional, but an advantage)
+                  <br>
+                  5. Valid passort
+
+                  </p>
+               </article>
+
+                <article>
+                  <h4>Consultation</h4>
+                  <p>
+                  Your assigned education counsellors will help you select the right study destination, schools, and courses from over 350 partner institutions based on your career goals and funding strategy. Consultation fee is ($50)
+                  </p>
+               </article>
+            
+               <article>
+                <h5>Application</h5>
+               <p>
+               Once you send us the required documents and payment, your assigned counsellor will start the application process. Our admission processing fee is FREE for some destinations . However ,depends on the country and the student's profile. Avg. processing fee is ($250)</p>
+               </article>
+               <article>
+
+                  <h5>did you know ?</h5>
+                  <p>
+                  You can finish your degree in just 1 year with a Top-Up Program!
+                  <br>
+                  Your final degree is globally recognized.
+                  <br>
+                  You can still work while schooling and get post study work thereafter.
+                  <br> 
+                  A Top-Up degree gives you a career edge with international experience
+                  </p>
+               </article>
+
+                <article>
+                  <h5>support program</h5>
+                  <p>We will guide and support you through the student visa application process! Note that we do not give visa , the embassay issues visa</p>
+               </article>
+                 
+                  
+               <a href="../contact/contact.html" class="btn primary">Get Started Now!</a>
+
+               
+               <!--=========== pricing SECECTION right =============-->
+            </div>
+            <div class="programDetail__right">
+               <article>
+                  <h4>school fee ranges from</h4>
+                  <div>
+                     <h2>$11,000 - $15,000</h2>
+                     <P>you will NOT get full refund after CAST (full meaning) is out.</P>
+                  </div>
+                  <div>
+                     <P>Non refundable fees once cast is out</P>
+                     <h2>$500</h2>
+                  </div>
+               </article>
+
+               <article>
+                  <h4> deposit is as low as</h4>
+                  <div>
+                    <h2>$3,500</h2>
+                     <P>and the next instamental payment will be paid after visa is issued</P>
+                  </div>
+                  <div>
+                     
+                     <P>Non refundable fees for each new dependant</P>
+                  </div>
+               </article>
+
+               <article>
+                  <h4>proof of funds</h4>
+                  <div>
+                     <h2>$13,400</h2>
+                     <P>Non refundable fees without dependant</P>
+                  </div>
+                  <div>
+                     <h2>$100</h2>
+                     <P>Non refundable fees for each new dependant</P>
+                  </div>
+               </article>
+               </div>
+            </div>
+      
+            `
+             }
+
+             
+             else if(program.classList.contains('online')){
+            program.classList.add('active')
+            programDetail.innerHTML = `  
+            <div class="container programDetail__container">
+            <div class="programDetail__left">
+               <h2>online program</h2>
+               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, esse voluptatibus corrupti deleniti perspiciatis libero magnam ad tenetur id eum delectus facilis, vel earum, temporibus dignissimos mollitia distinctio necessitatibus facere.</p>
+                <div class="programDetail__images">
+                  <div><img src="../images/online study-abroad-image.webp" alt=""></div>
+                   <div><img src="../images/black boy reading.jpg" alt=""></div>
+               </div>
                <h4>masters</h4>
                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos commodi soluta neque suscipit, quod consequatur tempore ipsum sit rem animi.</p>
 
@@ -221,19 +334,21 @@ const removeActiveClass = () =>{
             </div>
       
             `
-             }
+
+
+            }
 
              
-             else if(program.classList.contains('online')){
+             else if(program.classList.contains('boarding')){
             program.classList.add('active')
             programDetail.innerHTML = `  
             <div class="container programDetail__container">
             <div class="programDetail__left">
-               <h2>online program</h2>
+               <h2>TOP up program</h2>
                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, esse voluptatibus corrupti deleniti perspiciatis libero magnam ad tenetur id eum delectus facilis, vel earum, temporibus dignissimos mollitia distinctio necessitatibus facere.</p>
-               <div class="programDetail__images">
-               <div class="programDetail__images">
-                  <div><img src="../images/black boy studying.jpg""></div>
+                <div class="programDetail__images">
+                  <div><img src="../images/Activity-Center-student.webp" alt=""></div>
+                   <div><img src="../images/School-Boys-in-the-Dining.jpg" alt=""></div>
                </div>
 
                <h4>masters</h4>
