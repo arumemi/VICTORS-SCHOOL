@@ -39,19 +39,19 @@ const removeActiveClassFromButtons = () =>{
             packagesTableBody.innerHTML = `
                                <tr>
                     
-                              <td>kesston uk</td>
-                              <td>LONDON, U.K</td>
+                              <td>SIAM UNIVERSITY</td>
+                              <td>BANGKOK THIALAND</td>
                            </tr>
 
  
                            <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>SYNERGY UNIVERSITY</td>
+                              <td>MALAYSIA</td>
                            </tr>
 
                             <tr>
-                              <td>YORK ST JOHN</td>
-                              <td>LONDON, U.K</td>
+                              <td>INTI INTERNATIONAL UNIVERSITY</td>
+                              <td>NILAI MALAYSIS</td>
                            </tr>
  
                            <tr>
@@ -206,8 +206,8 @@ const removeActiveClassFromButtons = () =>{
                            </tr>
 
                             <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>SYNERGY  UNIVERSITY</td>
+                              <td>MOSCOW RUSSIA</td>
                            </tr>
 
                             <tr>
@@ -257,8 +257,24 @@ const removeActiveClassFromButtons = () =>{
             <tr>
                            
                            
-                              <td>olise COLLEGE</td>
-                              <td>LONDON, U.K</td>
+                              <td>PARK UNIVERSITY</td>
+                              <td>PARKVILLE UNITED STATES</td>
+                           </tr>
+
+ 
+                           <tr>
+                              <td>UNIVERSITY OF MASSACHUSETTS LOWELL</td>
+                              <td>LOWELL UNITED STATES</td>
+                           </tr>
+
+                            <tr>
+                              <td>CASCADIA COLLAGE</td>
+                              <td>WASHINTON UNITED STATES</td>
+                           </tr>
+ 
+                           <tr>
+                              <td>SPARTAN COLLAGE OF TECHNOLOGY</td>
+                              <td>UNITED STATES</td>
                            </tr>
 
  
@@ -268,30 +284,16 @@ const removeActiveClassFromButtons = () =>{
                            </tr>
 
                             <tr>
-                              <td>YORK ST JOHN</td>
-                              <td>LONDON, U.K</td>
-                           </tr>
- 
-                           <tr>
-                              <td>UNIVERSITYY OF CUMBRIA</td>
-                              <td>LANCASTER, U.K</td>
-                           </tr>
-
- 
-                           <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
-                           </tr>
-
-                            <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>UNIVERSITY CANADA WEST (UCA)</td>
+                              <td>CANADA</td>
                            </tr>
 
 
                            <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>COLLAGE OF THE CAYONS</td>
+                           <tr>
+                              <td>CALIFORNIA UNITED STATES</td>
+                             
                            </tr>
 
                             <tr>
@@ -300,8 +302,8 @@ const removeActiveClassFromButtons = () =>{
                            </tr>
 
                             <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>ANAHUAC UNIVERSITY</td>
+                              <td>MEXICO, NORTH AMERICA</td>
                            </tr>
 
 
