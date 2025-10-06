@@ -297,29 +297,29 @@ const removeActiveClassFromButtons = () =>{
                            </tr>
 
                             <tr>
-                              <td>B P P</td>
+                              <td>Hastings & Prince Edward District School Board (HPE Schools)</td>
+                              <td>Ontario, Canada</td>
+                           </tr>
+
+                            <tr>
+                              <td>Prince Bishop International Summer School</td>
+                              <td>U.K</td>
+                           </tr>
+
+
+                            <tr>
+                              <td>King's Interhigh Online school</td>
                               <td>LONDON, U.K</td>
                            </tr>
 
                             <tr>
-                              <td>ANAHUAC UNIVERSITY</td>
-                              <td>MEXICO, NORTH AMERICA</td>
-                           </tr>
-
-
-                            <tr>
-                              <td></td>
-                              <td>LONDON, U.K</td>
+                              <td>PRIVATE TUTOR </td>
+                              <td>U.K</td>
                            </tr>
 
                             <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
-                           </tr>
-
-                            <tr>
-                              <td>B P P</td>
-                              <td>LONDON, U.K</td>
+                              <td>RATCLIFFE COLLEGE</td>
+                              <td>U.K</td>
                            </tr>
 
                             <tr>

@@ -90,19 +90,19 @@ const removeActiveClass = () =>{
                <article>
                   <h4>school fee ranges from</h4>
                   <div>
-                     <h2>$11,000 - $15,000</h2>
+                     <h2>£11,000 - £15,000</h2>
                      <P>you will NOT get full refund after CAST (full meaning) is out.</P>
                   </div>
                   <div>
                      <P>Non refundable fees once cast is out</P>
-                     <h2>$500</h2>
+                     <h2>£500</h2>
                   </div>
                </article>
 
                <article>
                   <h4> deposit is as low as</h4>
                   <div>
-                    <h2>$3,500</h2>
+                    <h2>£3,500</h2>
                      <P>and the next instamental payment will be paid after visa is issued</P>
                   </div>
                   <div>
@@ -114,11 +114,11 @@ const removeActiveClass = () =>{
                <article>
                   <h4>proof of funds</h4>
                   <div>
-                     <h2>$13,400</h2>
+                     <h2>£13,400</h2>
                      <P>Non refundable fees without dependant</P>
                   </div>
                   <div>
-                     <h2>$100</h2>
+                     <h2>£100</h2>
                      <P>Non refundable fees for each new dependant</P>
                   </div>
                </article>
@@ -156,6 +156,7 @@ const removeActiveClass = () =>{
                   2. Official academic transcripts
                   <br>
                   3. Filled application form + personal statement
+                  <br>
                   4.Recommendation letter (optional, but an advantage)
                   <br>
                   5. Valid passort
@@ -189,10 +190,7 @@ const removeActiveClass = () =>{
                   </p>
                </article>
 
-                <article>
-                  <h5>support program</h5>
-                  <p>We will guide and support you through the student visa application process! Note that we do not give visa , the embassay issues visa</p>
-               </article>
+                
                  
                   
                <a href="../contact/contact.html" class="btn primary">Get Started Now!</a>
@@ -204,19 +202,19 @@ const removeActiveClass = () =>{
                <article>
                   <h4>school fee ranges from</h4>
                   <div>
-                     <h2>$11,000 - $15,000</h2>
+                     <h2>£11,000 - £15,000</h2>
                      <P>you will NOT get full refund after CAST (full meaning) is out.</P>
                   </div>
                   <div>
                      <P>Non refundable fees once cast is out</P>
-                     <h2>$500</h2>
+                     <h2>£500</h2>
                   </div>
                </article>
 
                <article>
                   <h4> deposit is as low as</h4>
                   <div>
-                    <h2>$3,500</h2>
+                    <h2>£3,500</h2>
                      <P>and the next instamental payment will be paid after visa is issued</P>
                   </div>
                   <div>
@@ -228,11 +226,11 @@ const removeActiveClass = () =>{
                <article>
                   <h4>proof of funds</h4>
                   <div>
-                     <h2>$13,400</h2>
+                     <h2>£13,400</h2>
                      <P>Non refundable fees without dependant</P>
                   </div>
                   <div>
-                     <h2>$100</h2>
+                     <h2>£100</h2>
                      <P>Non refundable fees for each new dependant</P>
                   </div>
                </article>
@@ -249,46 +247,63 @@ const removeActiveClass = () =>{
             <div class="container programDetail__container">
             <div class="programDetail__left">
                <h2>online program</h2>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, esse voluptatibus corrupti deleniti perspiciatis libero magnam ad tenetur id eum delectus facilis, vel earum, temporibus dignissimos mollitia distinctio necessitatibus facere.</p>
+               <p>
+               Up grade your future, study Online, in our education without borders. Learn Anywhere .Succeed Everwhere.   100% Online. Flexible. Global
+               </p>
                 <div class="programDetail__images">
                   <div><img src="../images/online study-abroad-image.webp" alt=""></div>
                    <div><img src="../images/black boy reading.jpg" alt=""></div>
                </div>
-               <h4>masters</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos commodi soluta neque suscipit, quod consequatur tempore ipsum sit rem animi.</p>
+               <h4>ONLINE PROGRAMS</h4>
+               <p>
+               Looking to upgrade your skills , boost your career or earn an International  degree without the hustle of getting visa, leaving your job or family behind? At ROCKSTAR study abroad, we make that possible! 
+               </p>
 
                <article>
-                  <h5>here is the details of your masters </h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatibus illum explicabo, reprehenderit inventore consequuntur autem quod et eligendi, vero distinctio nulla culpa blanditiis est assumenda expedita reiciendis eius enim.</p>
+                  <h5>Admission Requirements </h5>
+                  <p>
+                  1. Completed application form
+                  <br>
+                  2. Educational qualification - transcripts or certificate from previous studies
+                  <br>
+                  3. Valid identification - passport or government-issued ID
+                  <br>
+                  4. Statement of purpose - a short note why you want to study
+                  <br>
+                  5. Application fee - where applicable
+                  </p>
                </article>
 
                 <article>
-                  <h4>masters in uk</h4>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatibus illum explicabo, reprehenderit inventore consequuntur autem quod et eligendi, vero distinctio nulla culpa blanditiis est assumenda expedita reiciendis eius enim.</p>
+                  <h4>benefits for you</h4>
+                  <p>
+                  * 100% online classes -flexible and convient.
+                  <br>
+                  * Possiblity to travel and work in the host country upon graduating
+                  <br>
+                  * Globally recognized programs
+                  <br>
+                  * Affordable tuition fee and easy payment plans
+                  <br> 
+                  * Learn at your pace - from phone, laptop or computer
+                  </p>
                </article>
             
                <article>
-                <h5>admition times</h5>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos commodi soluta neque suscipit, quod consequatur tempore ipsum sit rem animi.</p>
+                <h5>fun facts</h5>
+               <p>
+               1. People who school online are most likely to get an online job with slightly higer pay.
+               <br>
+               2. Online learning can save you up to 60% of study cost 
+               <br>
+               3. Gradutes of online programms are just as employable as traditional gradutes- sometimes even more, thanks to there digital skills!
+             
+               </p>
                </article>
-               <article>
+               
 
-                  <h5>school fees</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatibus illum explicabo, reprehenderit inventore consequuntur autem quod et eligendi, vero distinctio nulla culpa blanditiis est assumenda expedita reiciendis eius enim.</p>
-               </article>
-
-                <article>
-                  <h5>facts about our masters program</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatibus illum explicabo, reprehenderit inventore consequuntur autem quod et eligendi, vero distinctio nulla culpa blanditiis est assumenda expedita reiciendis eius enim.</p>
-               </article>
-                 <article>
-                <h4>support program</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos commodi soluta neque suscipit, quod consequatur tempore ipsum sit rem animi.</p>
-               </article>
-                <article>
-                  <h5>other destinations we have for you</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatibus illum explicabo, reprehenderit inventore consequuntur autem quod et eligendi, vero distinctio nulla culpa blanditiis est assumenda expedita reiciendis eius enim.</p>
-               </article>
+               
+                 
                <a href="../contact/contact.html" class="btn primary">Get Started Now!</a>
 
                
@@ -298,19 +313,19 @@ const removeActiveClass = () =>{
                <article>
                   <h4>school fee ranges from</h4>
                   <div>
-                     <h2>$11,000 - $15,000</h2>
+                     <h2>£11,000 - £15,000</h2>
                      <P>you will NOT get full refund after CAST (full meaning) is out.</P>
                   </div>
                   <div>
                      <P>Non refundable fees once cast is out</P>
-                     <h2>$500</h2>
+                     <h2>£500</h2>
                   </div>
                </article>
 
                <article>
                   <h4> deposit is as low as</h4>
                   <div>
-                    <h2>$3,500</h2>
+                    <h2>£3,500</h2>
                      <P>and the next instamental payment will be paid after visa is issued</P>
                   </div>
                   <div>
@@ -322,11 +337,11 @@ const removeActiveClass = () =>{
                <article>
                   <h4>proof of funds</h4>
                   <div>
-                     <h2>$13,400</h2>
+                     <h2>£13,400</h2>
                      <P>Non refundable fees without dependant</P>
                   </div>
                   <div>
-                     <h2>$100</h2>
+                     <h2>£100</h2>
                      <P>Non refundable fees for each new dependant</P>
                   </div>
                </article>
@@ -344,48 +359,54 @@ const removeActiveClass = () =>{
             programDetail.innerHTML = `  
             <div class="container programDetail__container">
             <div class="programDetail__left">
-               <h2>TOP up program</h2>
-               <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus, esse voluptatibus corrupti deleniti perspiciatis libero magnam ad tenetur id eum delectus facilis, vel earum, temporibus dignissimos mollitia distinctio necessitatibus facere.</p>
+               <h2>SECONDARY SCHOOL</h2>
+               <p>
+               Imagine earning your high school education while exploring the world, making friends from different cultures, and preparing for a global future! with ROCKSTAR Study Abroad Program, students don't just attend school- they embark on a life changing journey
+               
+               </p>
                 <div class="programDetail__images">
                   <div><img src="../images/Activity-Center-student.webp" alt=""></div>
                    <div><img src="../images/School-Boys-in-the-Dining.jpg" alt=""></div>
                </div>
 
-               <h4>masters</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos commodi soluta neque suscipit, quod consequatur tempore ipsum sit rem animi.</p>
+               <h4>high schools</h4>
+               <p>
+               Imgine this: Walking through the beautiful streets of London with friends on your way to class, or greeting new friends in the vibrant campus in Canada. Every day brings new adventure different cultures , fresh perspective and opportunites, that goes beyond the classroom</p>
 
                <article>
-                  <h5>here is the details of your masters </h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatibus illum explicabo, reprehenderit inventore consequuntur autem quod et eligendi, vero distinctio nulla culpa blanditiis est assumenda expedita reiciendis eius enim.</p>
+                  <h5>advantages </h5>
+                  <p>
+                  * Accredited international high schools in top destinations
+                  <br>
+                  * Safe and supportive boarding enviroments
+                  <br>
+                  * Exposure to new cultures , languages , and ideas
+                  <br>
+                  * Pathway to leading universities worldwide
+                  <br>
+                  * Accredited internationl curriculum
+                  <br>
+                  * Personal growth , independence, lifelong friendships and connections
+                  
+                  </p>
                </article>
 
                 <article>
-                  <h4>masters in uk</h4>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatibus illum explicabo, reprehenderit inventore consequuntur autem quod et eligendi, vero distinctio nulla culpa blanditiis est assumenda expedita reiciendis eius enim.</p>
+                  <h4>Consultation</h4>
+                  <p>Your assigned education counsellors will help you and your guardian select the right study destination and schools. Consultation fee is ($50)
+                  </p>
                </article>
             
                <article>
-                <h5>admition times</h5>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos commodi soluta neque suscipit, quod consequatur tempore ipsum sit rem animi.</p>
+                <h5>support program</h5>
+               <p>
+               We will guide and support you through the student visa application process! All the way to your study destination. Making sure that you settle in just fine. We also offer a  long support progame for our high school students all the way to the university.
+               </p>
                </article>
-               <article>
+               
 
-                  <h5>school fees</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatibus illum explicabo, reprehenderit inventore consequuntur autem quod et eligendi, vero distinctio nulla culpa blanditiis est assumenda expedita reiciendis eius enim.</p>
-               </article>
-
-                <article>
-                  <h5>facts about our masters program</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatibus illum explicabo, reprehenderit inventore consequuntur autem quod et eligendi, vero distinctio nulla culpa blanditiis est assumenda expedita reiciendis eius enim.</p>
-               </article>
-                 <article>
-                <h4>support program</h4>
-               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos commodi soluta neque suscipit, quod consequatur tempore ipsum sit rem animi.</p>
-               </article>
-                <article>
-                  <h5>other destinations we have for you</h5>
-                  <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusamus voluptatibus illum explicabo, reprehenderit inventore consequuntur autem quod et eligendi, vero distinctio nulla culpa blanditiis est assumenda expedita reiciendis eius enim.</p>
-               </article>
+                
+               
                <a href="../contact/contact.html" class="btn primary">Get Started Now!</a>
 
                
@@ -395,19 +416,19 @@ const removeActiveClass = () =>{
                <article>
                   <h4>school fee ranges from</h4>
                   <div>
-                     <h2>$11,000 - $15,000</h2>
+                     <h2>£11,000 - £15,000</h2>
                      <P>you will NOT get full refund after CAST (full meaning) is out.</P>
                   </div>
                   <div>
                      <P>Non refundable fees once cast is out</P>
-                     <h2>$500</h2>
+                     <h2>£500</h2>
                   </div>
                </article>
 
                <article>
                   <h4> deposit is as low as</h4>
                   <div>
-                    <h2>$3,500</h2>
+                    <h2>£3,500</h2>
                      <P>and the next instamental payment will be paid after visa is issued</P>
                   </div>
                   <div>
@@ -419,11 +440,11 @@ const removeActiveClass = () =>{
                <article>
                   <h4>proof of funds</h4>
                   <div>
-                     <h2>$13,400</h2>
+                     <h2>£13,400</h2>
                      <P>Non refundable fees without dependant</P>
                   </div>
                   <div>
-                     <h2>$100</h2>
+                     <h2>£100</h2>
                      <P>Non refundable fees for each new dependant</P>
                   </div>
                </article>
