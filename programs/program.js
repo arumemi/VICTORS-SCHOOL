@@ -16,14 +16,14 @@ const removeActiveClass = () =>{
             <div class="container programDetail__container">
             <div class="programDetail__left">
                <h2>BACHELOR'S DEGREE</h2>
-               <p>Admission requirements vary by country, school, and course. However, students looking to study B.sc abroad must meet minimum admission requirements to qualify for our admission services.</p>
+               <p>Admission requirements vary by country, school, and course of study. However, students looking to study BSc abroad must meet minimum admission requirements to qualify for admission.</p>
                <div class="programDetail__images">
                   <div><img src="../images/Students regent building.jpg" alt=""></div>
                    <div><img src="../images/nursing-placement student.jpg" alt=""></div>
                </div>
 
                <h4>bachelor's degree</h4>
-               <p>Welcome to your BSc journey abroad! This is an exciting new chapter-full of learning , new friends and amazing experiences. Don't be afraid to step out of your comfort zone, explore, and make the most of our services.</p>
+               <p>Welcome to your BSc journey abroad! This is an exciting new chapter of learning whereby students can make new friends and also enjoy amazing experiences. Don't be afraid to step out of your comfort zone, explore, and make the most of our services.</p>
 
                <article>
                   <h5>Admission Requirements </h5>
@@ -32,7 +32,7 @@ const removeActiveClass = () =>{
                      <br>
                      2. Secondary school diploma
                      <br>
-                     3.Reference letters (preferrably From former school or empoyer)
+                     3.Reference letters (preferrably From former school or employer)
                      <br>
                      4.  Updated C.V
                      <br>
@@ -44,23 +44,23 @@ const removeActiveClass = () =>{
                 <article>
                   <h4>Consultation</h4>
                   <p>
-                  Your assigned education counsellors will help you select the right study destination, schools, and courses from over 350 partner institutions based on your career goals and funding strategy. Consultation fee is  ($50)
+                  Your assigned education counsellor will help you select the right study destination, school, and course of study from our over 350 partner institutions based on your career goal and affordable budget. Consultation fee is  ($50)
                   </p>
                </article>
             
                <article>
                 <h5>application</h5>
-               <p>Once you send us the required documents and payment, your assigned  counsellor will start the application process. Our admission processing fee is FREE for some destinations . However ,depends on the country and the student's profile. Avg. processing fee is  ($250)</p>
+               <p>Once you send us the required documents and payment, your assigned  counsellor will start the application process. Our admission processing is FREE for some destinations . However , modest fee is applicable to some destinations.</p>
                </article>
                <article>
 
                   <h5>fun fact</h5>
                   <p>
-                  In  many of our BSc programs abroad, your classmates may come from 50+ different countries , so you're learning alongside a truly international crowd. Thereby creating a life-Time of friends and global connection in your future career.
+                  In  many of our BSc programs abroad, your classmates may come from 50+ different countries , so you're learning alongside a truly international crowd. Thereby creating a lifetime of friendship and global connection in your future career.
                   <br>
-                  Employers love graduates with international experience because it shoes resilience , problem-solving and adaptability
+                  Employers love graduates with international experience because it shows resilience , problem-solving and adaptability.
                   <br>
-                  from the first day lost on a foreign campus to your first bigexam abroad, these experiences turn into stories you'll tell for the rest of your life
+                  From the first day lost on a foreign campus to your first big exam abroad, these experiences turn into stories you'll tell for the rest of your life.
 
                   </p>
                </article>
@@ -68,9 +68,10 @@ const removeActiveClass = () =>{
                 <article>
                   <h5>do you know?</h5>
                   <p>
-                  We have schools that offers schorlarships 
-                  up to 100%.
-                  We advise and provide proper guidance to help you explore  this scholarship opportunities. Overall, we help you meet your Proof of Fund requirement.
+                  We have schools that offers SCHOLARSHIP
+                  FROM 10% TO 100% of the tuition fee!
+                  <br>
+                  We advise and provide proper guidance to help you explore  this scholarship opportunities. Overall, we help you meet all admission conditions BUT, processing fee will apply.
                   </p>
                </article>
                  <article>
@@ -79,7 +80,7 @@ const removeActiveClass = () =>{
                </article>
                 <article>
                   <h5>other destinations we have for you</h5>
-                  <p>We also have universities and collages in other african countries. if you will like to study and get to know other African countries, get in contact with us now!</p>
+                  <p>We also have universities and colleges in some African countries. If you will like to study and get to know other African countries, get in contact with us now!</p>
                </article>
                <a href="../contact/contact.html" class="btn primary">Get Started Now!</a>
 
@@ -90,36 +91,31 @@ const removeActiveClass = () =>{
                <article>
                   <h4>school fee ranges from</h4>
                   <div>
-                     <h2>£11,000 - £15,000</h2>
-                     <P>you will NOT get full refund after CAST (full meaning) is out.</P>
+                     <h2>£12,000 - £17,000</h2>
+                     <P>You will NOT get full refund after the Confimation of Accpetance For Study (CAS) is issued.</P>
                   </div>
                   <div>
-                     <P>Non refundable fees once cast is out</P>
-                     <h2>£500</h2>
+                   <h2>£500</h2>
+                     <P>Non refundable fees once cast is issued</P>
+                    
                   </div>
                </article>
 
                <article>
                   <h4> deposit is as low as</h4>
                   <div>
-                    <h2>£3,500</h2>
-                     <P>and the next instamental payment will be paid after visa is issued</P>
+                    <h2>£4,000</h2>
+                     <P>
+
+                     </P>
                   </div>
-                  <div>
-                     
-                     <P>Non refundable fees for each new dependant</P>
-                  </div>
+                  
                </article>
 
                <article>
                   <h4>proof of funds</h4>
                   <div>
-                     <h2>£13,400</h2>
-                     <P>Non refundable fees without dependant</P>
-                  </div>
-                  <div>
-                     <h2>£100</h2>
-                     <P>Non refundable fees for each new dependant</P>
+                     <P>This is a very impotant part of the admission processing in almost all our destinations. If you need help on this, we can advise you according to your circumstances.</P>
                   </div>
                </article>
                </div>
@@ -135,7 +131,8 @@ const removeActiveClass = () =>{
             <div class="container programDetail__container">
             <div class="programDetail__left">
                <h2>TOP up program</h2>
-               <p>Looking to complete your degree abroad? Our International Top-Up Program gives you the chance to transfer credits , finish your studies faster , and earn a globally recognized qualification .Study in world class universitie, gain internatioanl exposure and open doors to global career opportunities</p>
+               <p>Looking to complete your degree abroad? Our International Top-Up Program gives you the chance to transfer credits  that will enable finish your studies faster and earn a globally recognized qualification.
+               <br> Study in one of the world's top universities, gain international exposure and open doors to global career opportunities</p>
                   
                <div class="programDetail__images">
                   <div><img src="../images/masters-class.jpg" alt=""></div>
@@ -167,7 +164,7 @@ const removeActiveClass = () =>{
                 <article>
                   <h4>Consultation</h4>
                   <p>
-                  Your assigned education counsellors will help you select the right study destination, schools, and courses from over 350 partner institutions based on your career goals and funding strategy. Consultation fee is ($50)
+                  Your assigned education counsellor will help you select the right study destination, school, and course from our over 350 partner institutions based on your career goal and budget. Consultation fee is  ($50)
                   </p>
                </article>
             
@@ -202,36 +199,32 @@ const removeActiveClass = () =>{
                <article>
                   <h4>school fee ranges from</h4>
                   <div>
-                     <h2>£11,000 - £15,000</h2>
-                     <P>you will NOT get full refund after CAST (full meaning) is out.</P>
+                     <h2>£11,000 - £13,000</h2>
+                     <P>You will NOT get full refund after the Confimation of Accpetance For Study (CAS) is issued </P>
                   </div>
                   <div>
-                     <P>Non refundable fees once cast is out</P>
-                     <h2>£500</h2>
+                  <h2>£500</h2>
+                     <P>
+                     Non refundable fees once CAS is issued
+                     </P>
+                     
                   </div>
                </article>
 
                <article>
                   <h4> deposit is as low as</h4>
                   <div>
-                    <h2>£3,500</h2>
-                     <P>and the next instamental payment will be paid after visa is issued</P>
+                    <h2>£4,500</h2>
+                     <P>And subsequent installment payments  will be shown in your admission offer letter</P>
                   </div>
-                  <div>
-                     
-                     <P>Non refundable fees for each new dependant</P>
-                  </div>
+                  
                </article>
 
                <article>
                   <h4>proof of funds</h4>
                   <div>
-                     <h2>£13,400</h2>
-                     <P>Non refundable fees without dependant</P>
-                  </div>
-                  <div>
-                     <h2>£100</h2>
-                     <P>Non refundable fees for each new dependant</P>
+                     
+                     <P>This is a very important part of the admission processing in almost all our destinations. If you need help on this, we can advise you according to your circumstances.</P>
                   </div>
                </article>
                </div>
@@ -248,7 +241,8 @@ const removeActiveClass = () =>{
             <div class="programDetail__left">
                <h2>online program</h2>
                <p>
-               Up grade your future, study Online, in our education without borders. Learn Anywhere .Succeed Everwhere.   100% Online. Flexible. Global
+               Up grade your future- study Online, in our education without borders. 
+               <br>Learn Anywhere<br> Succeed Everwhere<br>  100% Online <br> Flexible<br> Global
                </p>
                 <div class="programDetail__images">
                   <div><img src="../images/online study-abroad-image.webp" alt=""></div>
@@ -256,7 +250,7 @@ const removeActiveClass = () =>{
                </div>
                <h4>ONLINE PROGRAMS</h4>
                <p>
-               Looking to upgrade your skills , boost your career or earn an International  degree without the hustle of getting visa, leaving your job or family behind? At ROCKSTAR study abroad, we make that possible! 
+               Looking to upgrade your skills , boost your career or earn an International  degree without the hustle of getting visa, leaving your job or family behind? At ROCK STAR study abroad, we make that possible! 
                </p>
 
                <article>
@@ -292,7 +286,7 @@ const removeActiveClass = () =>{
                <article>
                 <h5>fun facts</h5>
                <p>
-               1. People who school online are most likely to get an online job with slightly higer pay.
+               1. People who school online are most likely to get an online job with slightly higher pay.
                <br>
                2. Online learning can save you up to 60% of study cost 
                <br>
@@ -313,38 +307,27 @@ const removeActiveClass = () =>{
                <article>
                   <h4>school fee ranges from</h4>
                   <div>
-                     <h2>£11,000 - £15,000</h2>
-                     <P>you will NOT get full refund after CAST (full meaning) is out.</P>
+                     <h2>£2,500 - £4,000</h2>
+                     
                   </div>
                   <div>
-                     <P>Non refundable fees once cast is out</P>
-                     <h2>£500</h2>
+                     
                   </div>
                </article>
 
                <article>
                   <h4> deposit is as low as</h4>
                   <div>
-                    <h2>£3,500</h2>
-                     <P>and the next instamental payment will be paid after visa is issued</P>
+                    <h2>£1,500</h2>
+                     <P>And the next instalments payment will be arranged once the study begins</P>
                   </div>
-                  <div>
+                 
                      
-                     <P>Non refundable fees for each new dependant</P>
-                  </div>
+                     
+                 
                </article>
 
-               <article>
-                  <h4>proof of funds</h4>
-                  <div>
-                     <h2>£13,400</h2>
-                     <P>Non refundable fees without dependant</P>
-                  </div>
-                  <div>
-                     <h2>£100</h2>
-                     <P>Non refundable fees for each new dependant</P>
-                  </div>
-               </article>
+              
                </div>
             </div>
       
@@ -416,36 +399,26 @@ const removeActiveClass = () =>{
                <article>
                   <h4>school fee ranges from</h4>
                   <div>
-                     <h2>£11,000 - £15,000</h2>
-                     <P>you will NOT get full refund after CAST (full meaning) is out.</P>
+                     <h2>£15,000 - £18,000</h2>
+                     <P>You will NOT get full refund after the Confimation of Accpetance For Study (CAS) is issued.</P>
                   </div>
-                  <div>
-                     <P>Non refundable fees once cast is out</P>
-                     <h2>£500</h2>
-                  </div>
+                  
                </article>
 
                <article>
-                  <h4> deposit is as low as</h4>
+                  <h4> deposit is about</h4>
                   <div>
-                    <h2>£3,500</h2>
-                     <P>and the next instamental payment will be paid after visa is issued</P>
+                    <h2>£8,500</h2>
+                     <P>and the next instalmental payment will be paid after visa is issued or by arrangement with the school</P>
                   </div>
-                  <div>
-                     
-                     <P>Non refundable fees for each new dependant</P>
-                  </div>
+                  
                </article>
 
                <article>
                   <h4>proof of funds</h4>
                   <div>
-                     <h2>£13,400</h2>
-                     <P>Non refundable fees without dependant</P>
-                  </div>
-                  <div>
-                     <h2>£100</h2>
-                     <P>Non refundable fees for each new dependant</P>
+                    
+                     <P>This is a very important part of the admission processing in almost all our destinations. If you need help on this, we can advise you according to your circumstances</P>
                   </div>
                </article>
                </div>
