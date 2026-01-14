@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
    <!--icon is choosen from iconscout site-->
    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
    <title>ROCKSTAR Internationl Travels</title>
@@ -21,7 +21,7 @@
 <body>
    <nav>
       <div class="container nav__container">
-        <a href="./Index.html" class="nav__logo">ROCK STAR <br>Study Abroad</a>
+        <a href="../Index.html" class="nav__logo">ROCK STAR <br><small>Study Abroad</small></a>
         
 
          <div class="nav__content"> 
@@ -29,10 +29,10 @@
          <a href="../Index.html" >Home</a>
          <a href="../ABOUT/ABOUT-us.html">About</a>
          <a href="../programs/programs.html">Programs</a>
-        <a href="../destination/destination.html">Destination</a>
+        <a href="../destination/destination.html">Destinations</a>
          <a href="./events.html" class="active">Events</a>
          <a href="../FAQ/faq.html"> FAQs</a>
-         <a href="../contact/contact.html">Contacts Us</a>
+         <a href="../contact/contact.html">Contact Us</a>
         </menu>
         <button class="theme__btn"><i class="uil uil-moon"></i></button>
         <button class="nav__menu-open"><i class="uil uil-bars"></i></button>
@@ -54,104 +54,127 @@
    
    
 
- <!--=========== events  body SECECTION =============-->
+ <!--=========== EVENTS SECTION =============-->
+   <section class="events">
+      <div class="container events__container">
+         <div class="events__header">
+            <h2>Upcoming Study Abroad Seminars</h2>
+            <p>Join us at any of our upcoming seminars to learn about international study opportunities</p>
+         </div>
 
-            <button class="program bsc ">
-                        <div class="program__image">
-                           <img src="../images/bpp student.jpeg" alt="">
-                        </div>
-                        <div class="program__info">
-                           <h3>educational seminar</h3>
-                        <p>Dreaming of International degree that sets you apart? Join our BPP Study Abroad Seminar</p>
-                        <br>
-                <h3>date :&#128197;</h3><p> <h4>11 th October</h4> 
-                  <h5>venue : &#x1F4CC;</h5><P>
-                  SONNAC BUILDING 787 LAGOS / ABEOKUTA EXPRESSWAY, ADURA BUS-STOP , ALAGBADO, LAGOS-NG
-                </P>
-
-                <br>
-                <h3>date :&#128197;</h3><p> <h4>15 th October</h4> 
-                  <h5>venue : &#x1F4CC;</h5><P>
-                  NAF SHOPPING COMPLEX ALONG INTERNATIONL AIRPORT  ROAD IKEJA LAGOS-NG
-                </P>
-
-                <br>
-                <h3>date :&#128197;</h3><p> <h4>21 th October</h4> 
-                  <h5>venue : &#x1F4CC;</h5><P>
-                 21 DUBIA CREASENT , SUN CITY ABUJA-NG
-                </P>
-                  <br>
-
-
-                 <h1 class="register-link"><a href="https://wa.me/+2348052999040" class="contact__item" target="_blank">click here to register</a></h1>
-                           
-                        </div>
-                     </button>   
-
-
-
-
-
-
-                   
-                    
-                     
-
-                     
-
- <!--=========== events 
-
-
-         <section class="events">
-            <div class="container events__container">
-               <menu class="  events1">
-                  <div class="event__image">
-                     
-
-
-                <div class="events__info">
-                  <img src="../images/bpp student.jpeg" alt=""></div>
-
-                  <p>Dreaming of International degree that sets you apart? Join our BPP Study Abroad Seminar</p><br>
-                <h5>date :&#128197; </h5><p> 11th October 2025</p><br>
-                <h5>time :&#9200; </h5><p>From 9:00 AM</p> <br>
-                <h5>venue : &#x1F4CC;</h5><P>
-                  SONNAC BUILDING 787 LAGOS / ABEOKUTA EXPRESSWAY, ADURA BUS-STOP , ALAGBADO, LAGOS-NG
-                </P>
-                </div>
-
-               <div class="event__image">
-                     <img src="../images/bpp student.jpeg" alt=""></div>
-
-
-                <div class="events__info">
-                  <p>Dreaming of International degree that sets you apart? Join our BPP Study Abroad Seminar</p><br>
-                <h5>date :&#128197; </h5><p> 11th October 2025</p><br>
-                <h5>time :&#9200; </h5><p>From 9:00 AM</p> <br>
-                <h5>venue : &#x1F4CC;</h5><P>
-                  SONNAC BUILDING 787 LAGOS / ABEOKUTA EXPRESSWAY, ADURA BUS-STOP , ALAGBADO, LAGOS-NG
-                </P>
-                </div>
-
-
-                <div class="event__image">
-                     <img src="../images/bpp student.jpeg" alt=""></div>
-                <div class="events__info">
-                  <p>Dreaming of International degree that sets you apart? Join our BPP Study Abroad Seminar</p><br>
-                <h5>date :&#128197; </h5><p> 11th October 2025</p><br>
-                <h5>time :&#9200; </h5><p>From 9:00 AM</p> <br>
-                <h5>venue : &#x1F4CC;</h5><P>
-                  SONNAC BUILDING 787 LAGOS / ABEOKUTA EXPRESSWAY, ADURA BUS-STOP , ALAGBADO, LAGOS-NG
-                </P>
-                </div>
-
-
-
-               </menu>
-
+         <div class="events__grid">
+            <!-- Event Card 1 -->
+            <div class="event__card">
+               <div class="event__card-image">
+                  <img src="../images/bpp student.jpeg" alt="Study Abroad Seminar">
+                  <div class="event__card-badge">Lagos</div>
+               </div>
+               <div class="event__card-content">
+                  <div class="event__card-date">
+                     <div class="date__box">
+                        <span class="date__day">11</span>
+                        <span class="date__month">OCT</span>
+                     </div>
+                     <div class="date__details">
+                        <h3>Study Abroad Seminar - Lagos</h3>
+                        <p><i class="uil uil-clock"></i> 9:00 AM - 3:00 PM</p>
+                     </div>
+                  </div>
+                  <p class="event__card-description">
+                     Dreaming of an international degree that sets you apart? Join our BPP Study Abroad Seminar and discover opportunities in the UK, USA, Canada, and more.
+                  </p>
+                  <div class="event__card-location">
+                     <i class="uil uil-map-marker"></i>
+                     <span>SONNAC Building, 787 Lagos/Abeokuta Expressway, Adura Bus-Stop, Alagbado, Lagos</span>
+                  </div>
+                  <div class="event__card-footer">
+                     <div class="event__card-details">
+                        <span><i class="uil uil-users-alt"></i> 50+ Seats</span>
+                        <span><i class="uil uil-ticket"></i> Free Entry</span>
+                     </div>
+                     <a href="https://wa.me/+2348052999040?text=Hi%2C%20I%27d%20like%20to%20register%20for%20the%20Study%20Abroad%20Seminar%20on%20October%2011%20in%20Lagos" target="_blank" class="event__card-btn">Register Now</a>
+                  </div>
+               </div>
             </div>
-         </section>
-         body SECECTION =============-->
+
+            <!-- Event Card 2 -->
+            <div class="event__card">
+               <div class="event__card-image">
+                  <img src="../images/bpp student.jpeg" alt="Study Abroad Seminar">
+                  <div class="event__card-badge">Ikeja</div>
+               </div>
+               <div class="event__card-content">
+                  <div class="event__card-date">
+                     <div class="date__box">
+                        <span class="date__day">15</span>
+                        <span class="date__month">OCT</span>
+                     </div>
+                     <div class="date__details">
+                        <h3>Study Abroad Seminar - Ikeja</h3>
+                        <p><i class="uil uil-clock"></i> 10:00 AM - 4:00 PM</p>
+                     </div>
+                  </div>
+                  <p class="event__card-description">
+                     Unlock your future with international education. Learn about admission requirements, scholarships, visa processes, and career opportunities abroad.
+                  </p>
+                  <div class="event__card-location">
+                     <i class="uil uil-map-marker"></i>
+                     <span>NAF Shopping Complex, International Airport Road, Ikeja, Lagos</span>
+                  </div>
+                  <div class="event__card-footer">
+                     <div class="event__card-details">
+                        <span><i class="uil uil-users-alt"></i> 50+ Seats</span>
+                        <span><i class="uil uil-ticket"></i> Free Entry</span>
+                     </div>
+                     <a href="https://wa.me/+2348052999040?text=Hi%2C%20I%27d%20like%20to%20register%20for%20the%20Study%20Abroad%20Seminar%20on%20October%2015%20in%20Ikeja" target="_blank" class="event__card-btn">Register Now</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Event Card 3 -->
+            <div class="event__card">
+               <div class="event__card-image">
+                  <img src="../images/bpp student.jpeg" alt="Study Abroad Seminar">
+                  <div class="event__card-badge">Abuja</div>
+               </div>
+               <div class="event__card-content">
+                  <div class="event__card-date">
+                     <div class="date__box">
+                        <span class="date__day">21</span>
+                        <span class="date__month">OCT</span>
+                     </div>
+                     <div class="date__details">
+                        <h3>Study Abroad Seminar - Abuja</h3>
+                        <p><i class="uil uil-clock"></i> 9:00 AM - 3:00 PM</p>
+                     </div>
+                  </div>
+                  <p class="event__card-description">
+                     Transform your future with quality education abroad. Meet our education counselors, explore programs, and get expert guidance on your study abroad journey.
+                  </p>
+                  <div class="event__card-location">
+                     <i class="uil uil-map-marker"></i>
+                     <span>21 Dubai Crescent, Sun City, Abuja</span>
+                  </div>
+                  <div class="event__card-footer">
+                     <div class="event__card-details">
+                        <span><i class="uil uil-users-alt"></i> 50+ Seats</span>
+                        <span><i class="uil uil-ticket"></i> Free Entry</span>
+                     </div>
+                     <a href="https://wa.me/+2348052999040?text=Hi%2C%20I%27d%20like%20to%20register%20for%20the%20Study%20Abroad%20Seminar%20on%20October%2021%20in%20Abuja" target="_blank" class="event__card-btn">Register Now</a>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="events__cta">
+            <h3>Can't Attend? Contact Us Directly</h3>
+            <p>Our team is always available to answer your questions</p>
+            <a href="https://wa.me/+2348052999040?text=Hi%2C%20I%27d%20like%20to%20learn%20more%20about%20studying%20abroad" target="_blank" class="events__cta-btn">
+               <i class="uil uil-whatsapp"></i> Chat with Us on WhatsApp
+            </a>
+         </div>
+      </div>
+   </section>
 
 <!---watasApp code-->
       <div class="elfsight-app-16623bbb-d0dc-4e1b-9173-9f804e10aefb" data-elfsight-app-lazy></div>

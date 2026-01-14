@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
    <meta charset="UTF-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
    <!--icon is choosen from iconscout site-->
    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
    <title>PROGRAMS-ROCK STAR</title>
@@ -31,7 +31,7 @@
          <a href="./destination.html" class="active">Destinations</a>
          <a href="../Events/events.html">Events</a>
          <a href="../FAQ/faq.html"> FAQs</a>
-         <a href="../contact/contact.html">Contacts Us</a>
+         <a href="../contact/contact.html">Contact Us</a>
         </menu>
         <button class="theme__btn"><i class="uil uil-moon"></i></button>
         <button class="nav__menu-open"><i class="uil uil-bars"></i></button>
@@ -52,52 +52,172 @@
 
 
 
-   <section class="gallery">
-      <div class="container gallery__container">
-         <menu class="gallery__filters"> 
-            <button  data-filter="all">All</button>
-            <button  data-filter=".Europe">Europe</button>
-            <button  data-filter=".America">America</button>
-            <button  data-filter=".Asia">Asia</button>
-            <button  data-filter=".Australia">Australia And more</button>
-         </menu>
-         <ul class="gallery__images"> 
-         <li class="mix all" data-order="1"><img src="../images/world image with cap.webp" alt=""> 
-            </li>
-            <li class="mix America" data-order="2"><img src="../images/Social-inclusion-YSJ.jpg" alt=""> 
-            </li>
-            <li class="mix Asia" data-order="3"><img src="../images/black-girl+asian kids.jpg" alt=""> 
-            </li>
-            <li class="mix Australia" data-order="4"><img src="../images/student having fun.webp" alt=""> 
-            </li>
-             <li class="mix Asia" data-order="5"></li><img src="../images/student-playing.jpeg" alt=""> 
-            </li>
-             <li class="mix America" data-order="6"><img src="../images/usa-study-abroad-pic.jpeg" alt=""> 
-            </li>
-             <li class="mix Australia" data-order="7"><img src="../images/comp science student.png" alt=""> 
-            </li>
-             <li class="mix America" data-order="8"><img src="../images/justroom.jpg" alt=""> 
-            </li>
-             <li class="mix Australia" data-order="9"><img src="../images/OU-Housing1.jpg" alt=""> 
-            </li>
-            <li class="mix Asia" data-order="10"><img src="../images/justroom.jpg" alt=""> 
-            </li>
-             <li class="mix Europe" data-order="11"><img src="../images/ppb images.jpeg" alt=""> 
-            </li>
-             <li class="mix America" data-order="12"><img src="../images/black girls in b& w background.jpg" alt=""> 
-            </li>
-             <li class="mix Europe" data-order="13"><img src="../images/BPP reception.avif" alt=""> 
-            </li>
-             <li class="mix America" data-order="14"><img src="../images/h2 students.jpg" alt=""> 
-             </li>
-              <li class="mix Europe" data-order="15"><img src="../images/masters in uk.jpeg" alt=""> 
-            </li>
-             <li class="mix Asia" data-order="16"><img src="../images/study-abroad-tokyo.jpg" alt=""> 
-            </li>
-             <li class="mix Europe" data-order="17"><img src="../images/Regent's University London (1)campus.jpg" alt=""> 
-            </li>
+   <!--=========== DESTINATION SECTION =============-->
+   <section class="destinations">
+      <div class="container destinations__container">
+         <h2 class="destinations__title">Popular Study Destinations</h2>
+         <p class="destinations__subtitle">Explore amazing opportunities around the world</p>
+         
+         <div class="destinations__grid">
+            <!-- Card 1 -->
+            <div class="destination__card">
+               <div class="destination__card-image">
+                  <img src="../images/female + testimony.webp" alt="Paris France">
+                  <div class="destination__card-badge">Popular</div>
+               </div>
+               <div class="destination__card-content">
+                  <div class="destination__card-header">
+                     <h3>Malaysia</h3>
+                     <div class="destination__card-location">
+                        <i class="uil uil-map-marker"></i>
+                        <span>Malaysia</span>
+                     </div>
+                  </div>
+                  <p class="destination__card-description">
+                     Experience world-class education in the City of Light. Study art, fashion, culinary arts, and business while immersing yourself in French culture.
+                  </p>
+                  <div class="destination__card-footer">
+                     <div class="destination__card-stats">
+                        <span><i class="uil uil-graduation-cap"></i> 50+ Universities</span>
+                        <span><i class="uil uil-users-alt"></i> 10K+ Students</span>
+                     </div>
+                     <a href="https://wa.me/?text=Hi%2C%20I%27m%20interested%20in%20studying%20in%20Paris%2C%20France.%20Can%20you%20provide%20more%20information%3F" target="_blank" class="destination__card-btn">Learn More</a>
+                  </div>
+               </div>
+            </div>
 
-         </ul>
+            <!-- Card 2 -->
+            <div class="destination__card">
+               <div class="destination__card-image">
+                  <img src="../images/uk munument.jpg" alt="London UK">
+                  <div class="destination__card-badge">Featured</div>
+               </div>
+               <div class="destination__card-content">
+                  <div class="destination__card-header">
+                     <h3>Thailand</h3>
+                     <div class="destination__card-location">
+                        <i class="uil uil-map-marker"></i>
+                        <span>Thailand</span>
+                     </div>
+                  </div>
+                  <p class="destination__card-description">
+                     Join prestigious institutions in one of the world's most diverse cities. Excellence in business, law, engineering, and the arts.
+                  </p>
+                  <div class="destination__card-footer">
+                     <div class="destination__card-stats">
+                        <span><i class="uil uil-graduation-cap"></i> 75+ Universities</span>
+                        <span><i class="uil uil-users-alt"></i> 15K+ Students</span>
+                     </div>
+                     <a href="https://wa.me/?text=Hi%2C%20I%27m%20interested%20in%20studying%20in%20London%2C%20United%20Kingdom.%20Can%20you%20provide%20more%20information%3F" target="_blank" class="destination__card-btn">Learn More</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Card 3 -->
+            <div class="destination__card">
+               <div class="destination__card-image">
+                  <img src="../images/BPP reception.avif" alt="New York USA">
+                  <div class="destination__card-badge">Trending</div>
+               </div>
+               <div class="destination__card-content">
+                  <div class="destination__card-header">
+                     <h3>Albalnia</h3>
+                     <div class="destination__card-location">
+                        <i class="uil uil-map-marker"></i>
+                        <span>Albalnia</span>
+                     </div>
+                  </div>
+                  <p class="destination__card-description">
+                     Study in the city that never sleeps. World-renowned programs in finance, technology, media, and performing arts.
+                  </p>
+                  <div class="destination__card-footer">
+                     <div class="destination__card-stats">
+                        <span><i class="uil uil-graduation-cap"></i> 100+ Universities</span>
+                        <span><i class="uil uil-users-alt"></i> 20K+ Students</span>
+                     </div>
+                     <a href="https://wa.me/?text=Hi%2C%20I%27m%20interested%20in%20studying%20in%20New%20York%2C%20United%20States.%20Can%20you%20provide%20more%20information%3F" target="_blank" class="destination__card-btn">Learn More</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Card 4 -->
+            <div class="destination__card">
+               <div class="destination__card-image">
+                  <img src="../images/female + testimony.webp" alt="Toronto Canada">
+               </div>
+               <div class="destination__card-content">
+                  <div class="destination__card-header">
+                     <h3>Toronto</h3>
+                     <div class="destination__card-location">
+                        <i class="uil uil-map-marker"></i>
+                        <span>Canada</span>
+                     </div>
+                  </div>
+                  <p class="destination__card-description">
+                     Experience quality education in one of the world's most multicultural cities. Strong programs in technology, healthcare, and business.
+                  </p>
+                  <div class="destination__card-footer">
+                     <div class="destination__card-stats">
+                        <span><i class="uil uil-graduation-cap"></i> 40+ Universities</span>
+                        <span><i class="uil uil-users-alt"></i> 12K+ Students</span>
+                     </div>
+                     <a href="https://wa.me/?text=Hi%2C%20I%27m%20interested%20in%20studying%20in%20Toronto%2C%20Canada.%20Can%20you%20provide%20more%20information%3F" target="_blank" class="destination__card-btn">Learn More</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Card 5 -->
+            <div class="destination__card">
+               <div class="destination__card-image">
+                  <img src="../images/uk munument.jpg" alt="Sydney Australia">
+               </div>
+               <div class="destination__card-content">
+                  <div class="destination__card-header">
+                     <h3>Sydney</h3>
+                     <div class="destination__card-location">
+                        <i class="uil uil-map-marker"></i>
+                        <span>Australia</span>
+                     </div>
+                  </div>
+                  <p class="destination__card-description">
+                     Study in a vibrant coastal city with beautiful beaches. Top-tier programs in marine biology, hospitality, and engineering.
+                  </p>
+                  <div class="destination__card-footer">
+                     <div class="destination__card-stats">
+                        <span><i class="uil uil-graduation-cap"></i> 30+ Universities</span>
+                        <span><i class="uil uil-users-alt"></i> 8K+ Students</span>
+                     </div>
+                     <a href="https://wa.me/?text=Hi%2C%20I%27m%20interested%20in%20studying%20in%20Sydney%2C%20Australia.%20Can%20you%20provide%20more%20information%3F" target="_blank" class="destination__card-btn">Learn More</a>
+                  </div>
+               </div>
+            </div>
+
+            <!-- Card 6 -->
+            <div class="destination__card">
+               <div class="destination__card-image">
+                  <img src="../images/BPP reception.avif" alt="Berlin Germany">
+               </div>
+               <div class="destination__card-content">
+                  <div class="destination__card-header">
+                     <h3>Berlin</h3>
+                     <div class="destination__card-location">
+                        <i class="uil uil-map-marker"></i>
+                        <span>Germany</span>
+                     </div>
+                  </div>
+                  <p class="destination__card-description">
+                     Affordable tuition and high-quality education in Europe's creative capital. Excellence in engineering, design, and innovation.
+                  </p>
+                  <div class="destination__card-footer">
+                     <div class="destination__card-stats">
+                        <span><i class="uil uil-graduation-cap"></i> 45+ Universities</span>
+                        <span><i class="uil uil-users-alt"></i> 9K+ Students</span>
+                     </div>
+                     <a href="https://wa.me/?text=Hi%2C%20I%27m%20interested%20in%20studying%20in%20Berlin%2C%20Germany.%20Can%20you%20provide%20more%20information%3F" target="_blank" class="destination__card-btn">Learn More</a>
+                  </div>
+               </div>
+            </div>
+         </div>
       </div>
    </section>
 

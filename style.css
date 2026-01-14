@@ -47,8 +47,9 @@
    
 }
 html{
-   font-size: 14px
-   ;
+   font-size: 14px;
+   scroll-behavior: smooth;
+   overflow-x: hidden;
 }
 body{
    font-family: "Montserrat" , sans-serif;
@@ -56,6 +57,10 @@ body{
    line-height: 1.6;
    background-color: var(--color-gray-50);
    font-weight: 500;
+   overflow-x: hidden;
+   max-width: 100vw;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
 }
 .dark{
    --color-gray-0: #080b0c;
@@ -105,7 +110,7 @@ h4{
    font-size: 0.92rem;
 }
 h5{
-   font-size: 0.86;
+   font-size: 0.86rem;
 }
 h6{
    font-size: 0.7rem;
@@ -124,6 +129,8 @@ button{
    text-transform: uppercase;
    border-radius: var(--radius-3);
    box-shadow: 0 0.7rem 0 var(--color-gray-100);
+   min-height: 44px;
+   min-width: 44px;
 }
 .btn.primary{
    background: var(--color-primary);
@@ -140,8 +147,8 @@ button{
 
 nav{
    background: var(--color-primary);
-   box-shadow: 0 0.5rem0 rgba(0, 0, 0, 0.1);
-   min-width: 100vw;
+   box-shadow: 0 0.5rem 0 rgba(0, 0, 0, 0.1);
+   width: 100%;
    height: 6rem;
    display: grid;
    place-items: center;
@@ -175,7 +182,8 @@ body.dark nav{
    font-size: 2rem;
    color: var(--color-gray-0);
    display: none;
-
+   min-height: 44px;
+   min-width: 44px;
 }
 nav a{
    color: var(--color-gray-0);
@@ -237,6 +245,26 @@ nav a:active{
 }
 
 
+
+/*=========size for TABLET SCREEN SIZE==========*/
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+   .container{
+      width: 90%;
+   }
+   .nav__content{
+      gap: 2rem;
+   }
+   .nav__menu{
+      gap: 2rem;
+   }
+   h1{
+      font-size: 2.4rem;
+   }
+   h2{
+      font-size: 1.6rem;
+   }
+}
 
 
 
@@ -334,6 +362,15 @@ nav a:active{
    }
    .nav__menu-open{
       display: inline-block;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .nav__logo{
+      font-size: 1.1rem;
+   }
+   nav{
+      height: 5rem;
    }
    .page__header{
       height: 20rem;

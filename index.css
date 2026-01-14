@@ -325,6 +325,11 @@ body.dark.hero{
 table{
    width: 100%;
 }
+.table-wrapper {
+   overflow-x: auto;
+   -webkit-overflow-scrolling: touch;
+   margin-top: 2rem;
+}
 thead th{
    padding: 1rem;
    text-align: left;
@@ -439,6 +444,28 @@ footer * {
 
 
 
+/*==========media queries for tablet screens==========*/
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+   .hero__images{
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2rem;
+   }
+   .hero__image:nth-child(4), .hero__image:nth-child(5){
+      display: none;
+   }
+   .about__container{
+      gap: 5rem;
+   }
+   .whyUs__right{
+      gap: 2rem;
+   }
+   .ourProcess__list{
+      grid-template-columns: 1fr 1fr;
+   }
+}
+
+
 /*==========media queries for small screen==========*/
 
 
@@ -452,6 +479,13 @@ footer * {
    }
    .hero__content{
       width: 100%;
+      padding: 0 1rem;
+   }
+   .hero__content h1 {
+      font-size: 1.8rem;
+   }
+   .hero__content p {
+      font-size: 0.9rem;
    }
    .hero__images{
       grid-template-columns: 1fr 1fr;
@@ -470,6 +504,11 @@ footer * {
    .hero__cta{
       gap: 1rem;
       margin-top: 1.5rem;
+      flex-wrap: wrap;
+   }
+   .hero__cta .btn {
+      font-size: 0.75rem;
+      padding: 1rem 1.5rem;
    }
    .about__container{
       grid-template-columns: 1fr ;
@@ -479,7 +518,7 @@ footer * {
       border-radius: 2rem;
       box-shadow: none;
    }
-   .ourProgram__item{
+   .ourPrograms__item{
       width: 80%;
       margin-inline: auto;
    }
@@ -503,5 +542,11 @@ footer * {
    }
    .packages td, .packages th {
       padding: 0.7rem;
+   }
+   .table-wrapper {
+      margin-top: 1.5rem;
+   }
+   .packages table {
+      min-width: 300px;
    }
 }
