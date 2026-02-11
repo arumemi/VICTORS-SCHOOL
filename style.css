@@ -190,9 +190,30 @@ nav a{
 
 }
 .nav__logo{
+   display: flex;
+   align-items: center;
+   gap: 0.8rem;
+}
+
+.nav__logo img{
+   height: 50px;
+   width: auto;
+   transition: var(--transition);
+}
+
+.nav__logo .logo-text{
    font-weight: 800;
    font-size: 1.3rem;
+   line-height: 1.2;
+}
 
+.nav__logo .logo-text small{
+   font-size: 0.7rem;
+   font-weight: 500;
+}
+
+.nav__logo:hover img{
+   transform: scale(1.05);
 }
 nav a:hover{
    color: var(--color-primary-varient);
@@ -366,8 +387,16 @@ nav a:active{
       align-items: center;
       justify-content: center;
    }
-   .nav__logo{
+   .nav__logo img{
+      height: 40px;
+   }
+   
+   .nav__logo .logo-text{
       font-size: 1.1rem;
+   }
+   
+   .nav__logo .logo-text small{
+      font-size: 0.65rem;
    }
    nav{
       height: 5rem;
