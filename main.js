@@ -15,26 +15,39 @@ const navMenuClose = document.querySelector('.nav__menu-close');
       navMenuClose.style.display ='none';
 });
 
-const themeBtn = document.querySelector('.theme__btn')
-themeBtn.addEventListener('click', () =>{
-   if(document.body.className == 'dark'){
-      document.body.className = ''
-      themeBtn.innerHTML = `<i class="uil uil-moon"></i> `
-      localStorage.setItem('mood', 'dark')
+const themeBtn = document.querySelector('.theme__btn');
+const themeStorageKey = 'themePreference';
+const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
+
+const applyTheme = (theme) => {
+   document.body.classList.toggle('dark', theme === 'dark');
+   themeBtn.innerHTML = theme === 'dark'
+      ? `<i class="uil uil-sun"></i> `
+      : `<i class="uil uil-moon"></i> `;
+};
+
+const getInitialTheme = () => {
+   const savedTheme = localStorage.getItem(themeStorageKey);
+   if (savedTheme === 'dark' || savedTheme === 'light') {
+      return savedTheme;
    }
-   else{
-      document.body.className = 'dark'
-       localStorage.setItem('mood', '')
-       themeBtn.innerHTML = `<i class="uil uil-sun"></i> `
-       
-   }
+   return prefersDark.matches ? 'dark' : 'light';
+};
+
+applyTheme(getInitialTheme());
+
+themeBtn.addEventListener('click', () => {
+   const currentTheme = document.body.classList.contains('dark') ? 'dark' : 'light';
+   const nextTheme = currentTheme === 'dark' ? 'light' : 'dark';
+   applyTheme(nextTheme);
+   localStorage.setItem(themeStorageKey, nextTheme);
 });
-   window.addEventListener('load', () =>{
-      document.body.className = localStorage.getItem('mood')
-      if(localStorage.getItem('mood') ==""){
-         themeBtn.innerHTML = `<i class="uil uil-moon"></i> `
-      }
-      else{
-          themeBtn.innerHTML = `<i class="uil uil-sun"></i> `
+
+if (prefersDark.addEventListener) {
+   prefersDark.addEventListener('change', (event) => {
+      const savedTheme = localStorage.getItem(themeStorageKey);
+      if (!savedTheme) {
+         applyTheme(event.matches ? 'dark' : 'light');
       }
    });
+}

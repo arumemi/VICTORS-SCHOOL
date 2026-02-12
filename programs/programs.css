@@ -19,6 +19,15 @@
    gap: 2.5rem;
 }
 
+.programs__menu.focus-mode{
+   grid-template-columns: minmax(320px, 520px);
+   justify-content: center;
+}
+
+.programs__menu.focus-mode .program:not(.active){
+   display: none;
+}
+
 .program{
    background: white;
    border-radius: 1.2rem;
@@ -237,6 +246,13 @@
    margin-top: 2rem;
    padding: 1.2rem 3rem;
    font-size: 1rem;
+}
+
+.programDetail__return{
+   display: inline-flex;
+   align-items: center;
+   gap: 0.6rem;
+   margin: 0 auto 2rem;
 }
 
 /* Right Sidebar */

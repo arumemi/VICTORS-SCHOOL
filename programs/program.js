@@ -1,18 +1,49 @@
             
 const programsMenu = document.querySelectorAll('.program');
 const programDetail = document.querySelector('.programDetail');
+const programsSection = document.querySelector('.programs');
+const programsMenuContainer = document.querySelector('.programs__menu');
+const initialProgramDetailHtml = programDetail.innerHTML;
+
+const returnButtonHtml = `
+   <button type="button" class="btn programDetail__return">
+      <i class="uil uil-arrow-left"></i> Return to all programs
+   </button>
+`;
             
 const removeActiveClass = () =>{
    programsMenu.forEach(button =>{
       button.classList.remove('active')
    })
 }
+
+const activateProgramView = (program, detailHtml) => {
+   removeActiveClass();
+   program.classList.add('active');
+   programsMenuContainer.classList.add('focus-mode');
+   programDetail.innerHTML = `${returnButtonHtml}${detailHtml}`;
+   programDetail.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
+
+const resetProgramView = () => {
+   programsMenuContainer.classList.remove('focus-mode');
+   removeActiveClass();
+   const masterProgram = document.querySelector('.program.masters');
+   if (masterProgram) {
+      masterProgram.classList.add('active');
+   }
+   programDetail.innerHTML = initialProgramDetailHtml;
+   programsSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+};
+
  programsMenu.forEach(program =>{
       program.addEventListener('click', ()  => { 
-         removeActiveClass()
-           if(program.classList.contains('bsc')){
-            program.classList.add('active')
-            programDetail.innerHTML = `  
+         if(program.classList.contains('masters')){
+            activateProgramView(program, initialProgramDetailHtml);
+         }
+
+         else if(program.classList.contains('bsc')){
+            activateProgramView(program, `  
             <div class="container programDetail__container">
             <div class="programDetail__left">
                <h2>BACHELOR'S DEGREE</h2>
@@ -121,13 +152,12 @@ const removeActiveClass = () =>{
                </div>
             </div>
       
-            `
+            `)
              }
 
              
              else if(program.classList.contains('programT')){
-            program.classList.add('active')
-            programDetail.innerHTML = `  
+            activateProgramView(program, `  
             <div class="container programDetail__container">
             <div class="programDetail__left">
                <h2>TOP up program</h2>
@@ -230,13 +260,12 @@ const removeActiveClass = () =>{
                </div>
             </div>
       
-            `
+            `)
              }
 
              
              else if(program.classList.contains('online')){
-            program.classList.add('active')
-            programDetail.innerHTML = `  
+            activateProgramView(program, `  
             <div class="container programDetail__container">
             <div class="programDetail__left">
                <h2>online program</h2>
@@ -331,15 +360,14 @@ const removeActiveClass = () =>{
                </div>
             </div>
       
-            `
+            `)
 
 
             }
 
              
              else if(program.classList.contains('boarding')){
-            program.classList.add('active')
-            programDetail.innerHTML = `  
+            activateProgramView(program, `  
             <div class="container programDetail__container">
             <div class="programDetail__left">
                <h2>SECONDARY SCHOOL</h2>
@@ -424,11 +452,17 @@ const removeActiveClass = () =>{
                </div>
             </div>
       
-            `
+            `)
              }
 
 
 
       });
    });
+
+programDetail.addEventListener('click', (event) => {
+   if (event.target.closest('.programDetail__return')) {
+      resetProgramView();
+   }
+});
               
