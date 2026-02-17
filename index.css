@@ -56,7 +56,6 @@ body.dark.hero{
    border-radius: 7rem;
    overflow: hidden;
    box-shadow: 0 1.5rem 0  var(--color-gray-200);
-   transition: var(--transition);
 
 }
 .hero__image:hover{
@@ -88,7 +87,6 @@ body.dark.hero{
    border-radius: 7rem;
    overflow: hidden;
    box-shadow: 0 2rem 0 var(--color-gray-100);
-   transition: var(--transition);
  }
 .about__left:hover{
    box-shadow: none;
@@ -131,7 +129,6 @@ body.dark.hero{
    border-radius: var(--radius-6);
    overflow: hidden;
    box-shadow: 0 1rem 0 var(--color-gray-100);
-   transition: var(--transition);
 }
 .ourPrograms__item:hover{
    box-shadow: none;
@@ -196,7 +193,6 @@ body.dark.hero{
    border-radius: var(--radius-6);
    text-align: center;
    box-shadow: 0 1rem 0 var(--color-gray-100);
-   transition: var(--transition);
 }
 .whyUs__item:hover{
    box-shadow: none;
@@ -256,7 +252,6 @@ body.dark.hero{
    border-radius: var(--radius-6);
    box-shadow: 0 1rem 0 var(--color-gray-100);
    position: relative;
-   transition: var(--transition);
 }
 .ourProcess__item:hover{
    box-shadow: none;
@@ -370,7 +365,6 @@ tbody tr:nth-child(odd){
    padding: 2rem 2.5rem;
    border-radius: var(--radius-6);
    box-shadow: 0 1.2rem 0 var(--color-gray-100);
-   transform: var(--transition);
 
 }
 .swiper-slide:hover{

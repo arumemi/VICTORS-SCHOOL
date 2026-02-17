@@ -22,8 +22,6 @@
     --color-info: #ffcd56;
     --color-purple: rgb(166, 27 ,191);
 
-    --transition: all 300ms ease;
-
     --radius-1: 0.4rem;
      --radius-2:0.8rem;
       --radius-3:1.2rem;
@@ -64,7 +62,6 @@ body{
 }
 a{
    color: var(--color-gray-900);
-   transition: var(--transition);
 }
 img{
    display: block;
@@ -98,7 +95,6 @@ h6{
 }
 button{
    cursor: pointer;
-   transition: var(--transition);
 
 }
 .btn{

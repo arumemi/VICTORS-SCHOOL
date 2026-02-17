@@ -14,7 +14,6 @@
    cursor: pointer;
    align-self: flex-start;
    border-radius: var(--radius-3);
-   transition: var(--transition);
 
 }
 .faq__head{
