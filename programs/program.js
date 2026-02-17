@@ -75,7 +75,7 @@ const resetProgramView = () => {
                 <article>
                   <h4>Consultation</h4>
                   <p>
-                  Your assigned education counsellor will help you select the right study destination, school, and course of study from our over 350 partner institutions based on your career goal and affordable budget. Consultation fee is  ($50)
+                  Your assigned education counsellor will help you select the right study destination, school, and course of study from our over 350 partner institutions based on your career goal and affordable budget. 
                   </p>
                </article>
             
@@ -122,14 +122,10 @@ const resetProgramView = () => {
                <article>
                   <h4>school fee ranges from</h4>
                   <div>
-                     <h2>£12,000 - £17,000</h2>
-                     <P>You will NOT get full refund after the Confimation of Accpetance For Study (CAS) is issued.</P>
+                     <h2>£12,500 - £17,000</h2>
+                     
                   </div>
-                  <div>
-                   <h2>£500</h2>
-                     <P>Non refundable fees once cast is issued</P>
-                    
-                  </div>
+                  
                </article>
 
                <article>
@@ -230,21 +226,15 @@ const resetProgramView = () => {
                   <h4>school fee ranges from</h4>
                   <div>
                      <h2>£11,000 - £13,000</h2>
-                     <P>You will NOT get full refund after the Confimation of Accpetance For Study (CAS) is issued </P>
+              
                   </div>
-                  <div>
-                  <h2>£500</h2>
-                     <P>
-                     Non refundable fees once CAS is issued
-                     </P>
-                     
-                  </div>
+                  
                </article>
 
                <article>
                   <h4> deposit is as low as</h4>
                   <div>
-                    <h2>£4,500</h2>
+                    <h2>£6,000</h2>
                      <P>And subsequent installment payments  will be shown in your admission offer letter</P>
                   </div>
                   
@@ -274,12 +264,12 @@ const resetProgramView = () => {
                <br>Learn Anywhere<br> Succeed Everwhere<br>  100% Online <br> Flexible<br> Global
                </p>
                 <div class="programDetail__images">
-                  <div><img src="../images/online study-abroad-image.webp" alt=""></div>
-                   <div><img src="../images/black boy reading.jpg" alt=""></div>
+                  <div><img src="../images/boy.jpg" alt=""></div>
+                   
                </div>
                <h4>ONLINE PROGRAMS</h4>
                <p>
-               Looking to upgrade your skills , boost your career or earn an International  degree without the hustle of getting visa, leaving your job or family behind? At ROCK STAR study abroad, we make that possible! 
+               Looking to upgrade your skills , boost your career or earn an International  degree without the hustle of getting visa, leaving your job or family behind? At ROCKSTAR study abroad, we make that possible! 
                </p>
 
                <article>
@@ -377,7 +367,7 @@ const resetProgramView = () => {
                </p>
                 <div class="programDetail__images">
                   <div><img src="../images/Activity-Center-student.webp" alt=""></div>
-                   <div><img src="../images/School-Boys-in-the-Dining.jpg" alt=""></div>
+                   <div><img src="../images/OU-Housing1.jpg" alt=""></div>
                </div>
 
                <h4>high schools</h4>
@@ -428,7 +418,7 @@ const resetProgramView = () => {
                   <h4>school fee ranges from</h4>
                   <div>
                      <h2>£15,000 - £18,000</h2>
-                     <P>You will NOT get full refund after the Confimation of Accpetance For Study (CAS) is issued.</P>
+                    
                   </div>
                   
                </article>

@@ -1,6 +1,6 @@
 # Victor's School Website
 
-Static multi-page website for Rock Star Study Abroad.
+Static multi-page website for ROCKSTAR Study Abroad.
 
 ## Project structure
 
