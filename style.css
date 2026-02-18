@@ -406,6 +406,51 @@ nav a:active{
    font-size: 0.9rem;
 }
 
+.site-footer__builder{
+   display: inline-flex;
+   align-items: center;
+   gap: 0.45rem;
+   font-weight: 700;
+   letter-spacing: 0.02em;
+}
+
+.site-footer__builder-link{
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   padding: 0.35rem 0.85rem;
+   border-radius: 999px;
+   background: linear-gradient(90deg, var(--color-primary), var(--color-primary-varient));
+   color: #111 !important;
+   font-weight: 800;
+   text-transform: uppercase;
+   font-size: 0.76rem;
+   box-shadow: 0 0 0 2px rgba(2, 161, 223, 0.22), 0 0.55rem 1.2rem rgba(2, 161, 223, 0.35);
+   animation: footerBuilderPulse 2.2s ease-in-out infinite;
+}
+
+.site-footer__builder-link:hover{
+   transform: translateY(-2px) scale(1.03);
+   filter: brightness(1.07);
+   color: #111 !important;
+}
+
+@keyframes footerBuilderPulse {
+   0%,
+   100% {
+      box-shadow: 0 0 0 2px rgba(2, 161, 223, 0.22), 0 0.55rem 1.2rem rgba(2, 161, 223, 0.35);
+   }
+   50% {
+      box-shadow: 0 0 0 3px rgba(249, 242, 47, 0.35), 0 0.75rem 1.35rem rgba(249, 242, 47, 0.35);
+   }
+}
+
+@media (prefers-reduced-motion: reduce) {
+   .site-footer__builder-link{
+      animation: none;
+   }
+}
+
 .site-footer__legal{
    display: flex;
    flex-wrap: wrap;
@@ -428,7 +473,50 @@ nav a:active{
       gap: 2rem;
    }
    .nav__menu{
-      gap: 2rem;
+      position: fixed;
+      top: 6rem;
+      right: 5%;
+      flex-direction: column;
+      gap: 0;
+      width: 18rem;
+      display: none;
+      perspective: 200px;
+      z-index: 3;
+   }
+   .nav__menu a {
+      background: linear-gradient(var(--color-gray-800), var(--color-gray-700));
+      color: var(--color-gray-0);
+      height: 4rem;
+      display: grid;
+      place-items: center;
+      width: 100%;
+      box-shadow: -2rem 4rem 3rem rgba(0, 0, 0, 0.2);
+      animation: animation1 300ms ease forwards;
+      transform: rotateX(90deg);
+      opacity: 0;
+      transform-origin: top;
+   }
+   .nav__menu a.active{
+      background: var(--color-primary);
+      color: var(--color-gray-0);
+   }
+   .nav__menu-open{
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .nav__menu-close{
+      display: none;
+   }
+   .nav__logo img{
+      height: 44px;
+   }
+   .nav__logo .logo-text{
+      font-size: 1.1rem;
+      line-height: 1.15;
+   }
+   .theme__btn{
+      font-size: 1.35rem;
    }
    h1{
       font-size: 2.4rem;
@@ -566,6 +654,15 @@ nav a:active{
    .site-footer__bottom small,
    .site-footer__legal a{
       font-size: 0.85rem;
+   }
+
+   .site-footer__builder{
+      flex-wrap: wrap;
+   }
+
+   .site-footer__builder-link{
+      font-size: 0.72rem;
+      padding: 0.3rem 0.75rem;
    }
 
 
