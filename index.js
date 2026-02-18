@@ -16,10 +16,9 @@
     });
 
       //starting annimation//
-      AOS.init();
 
 
-      
+
 //package toggle section for schools
 
 const packagesButtons = document.querySelectorAll('.packages__buttons button');

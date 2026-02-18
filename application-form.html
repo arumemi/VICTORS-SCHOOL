@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes" />
+    <title>Study Abroad Application Form - ROCKSTAR</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./application-form.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="./index.html" class="nav__logo">
+          <img src="./images/samuel logo.jpeg" alt="ROCKSTAR Study Abroad" />
+          <h1 class="logo-text">ROCKSTAR<br />STUDY ABROAD</h1>
+        </a>
+
+        <div class="nav__content">
+          <menu class="nav__menu">
+            <a href="./index.html">Home</a>
+            <a href="./about/about-us.html">About</a>
+            <a href="./programs/programs.html">Programs</a>
+            <a href="./destination/destination.html">Destinations</a>
+            <a href="./events/events.html">Events</a>
+            <a href="./faq/faq.html">FAQs</a>
+            <a href="./contact/contact.html">Contact Us</a>
+            <a href="./application-form.html" class="active">Apply Now</a>
+          </menu>
+          <button class="theme__btn"><i class="uil uil-moon"></i></button>
+          <button class="nav__menu-open"><i class="uil uil-bars"></i></button>
+          <button class="nav__menu-close"><i class="uil uil-multiply"></i></button>
+        </div>
+      </div>
+    </nav>
+
+    <header class="page__header">
+      <div class="page__header-content">
+        <h2>Study Abroad Application Form</h2>
+        <p>Fill in your details and submit instantly via WhatsApp.</p>
+      </div>
+    </header>
+
+    <section class="apply">
+      <div class="container apply__container">
+        <article class="apply__info">
+          <h3>What we need from you</h3>
+          <p>
+            This form captures your academic profile and all key requirements to help our counsellors
+            match you with the right destination, school, and program.
+          </p>
+
+          <ul class="requirements__list">
+            <li><i class="uil uil-check-circle"></i> Valid passport details</li>
+            <li><i class="uil uil-check-circle"></i> Academic qualification and transcript status</li>
+            <li><i class="uil uil-check-circle"></i> Preferred country, program, and intake</li>
+            <li><i class="uil uil-check-circle"></i> Proof of funds / sponsorship plan</li>
+            <li><i class="uil uil-check-circle"></i> English language test status (if available)</li>
+            <li><i class="uil uil-check-circle"></i> Supporting documents readiness</li>
+          </ul>
+
+          <div class="apply__note">
+            <h4>Minimum requirements (general)</h4>
+            <p>
+              Admission criteria vary by destination and institution, but most applicants are expected
+              to provide educational certificates, transcript, valid ID/passport, and financial support
+              evidence.
+            </p>
+          </div>
+        </article>
+
+        <article class="apply__form-wrap">
+          <form id="studyAbroadForm" class="apply__form">
+            <h3>Applicant Details</h3>
+
+            <div class="form__grid">
+              <label>
+                Full Name *
+                <input type="text" name="fullName" required />
+              </label>
+
+              <label>
+                WhatsApp Number *
+                <input type="tel" name="phone" placeholder="e.g. +234 801 234 5678" required />
+              </label>
+
+              <label>
+                Email Address *
+                <input type="email" name="email" required />
+              </label>
+
+              <label>
+                Date of Birth *
+                <input type="date" name="dob" required />
+              </label>
+
+              <label>
+                Current Country *
+                <input type="text" name="country" required />
+              </label>
+
+              <label>
+                Current City *
+                <input type="text" name="city" required />
+              </label>
+            </div>
+
+            <h3>Academic Profile</h3>
+            <div class="form__grid">
+              <label>
+                Highest Qualification *
+                <select name="qualification" required>
+                  <option value="">Select</option>
+                  <option>High School</option>
+                  <option>Diploma</option>
+                  <option>Bachelor Degree</option>
+                  <option>Postgraduate Diploma</option>
+                  <option>Master Degree</option>
+                  <option>Other</option>
+                </select>
+              </label>
+
+              <label>
+                Intended Program *
+                <select name="intendedProgram" required>
+                  <option value="">Select</option>
+                  <option>High School</option>
+                  <option>Foundation</option>
+                  <option>Bachelor Degree</option>
+                  <option>Top-Up Program</option>
+                  <option>Master Degree</option>
+                  <option>PhD</option>
+                  <option>Online Program</option>
+                </select>
+              </label>
+
+              <label>
+                Preferred Destination *
+                <input type="text" name="destination" placeholder="e.g. UK, Canada, Germany" required />
+              </label>
+
+              <label>
+                Preferred Intake *
+                <input type="text" name="intake" placeholder="e.g. September 2026" required />
+              </label>
+
+              <label>
+                Grade / GPA (if available)
+                <input type="text" name="gpa" placeholder="e.g. 3.2/4.0 or Second Class Upper" />
+              </label>
+
+              <label>
+                Year of Graduation
+                <input type="number" name="graduationYear" min="1980" max="2100" />
+              </label>
+            </div>
+
+            <h3>Requirements & Documents</h3>
+            <div class="form__grid">
+              <label>
+                Passport Status *
+                <select name="passportStatus" required>
+                  <option value="">Select</option>
+                  <option>I have a valid passport</option>
+                  <option>Passport expired</option>
+                  <option>I don't have a passport yet</option>
+                </select>
+              </label>
+
+              <label>
+                English Test Status *
+                <select name="englishTest" required>
+                  <option value="">Select</option>
+                  <option>IELTS completed</option>
+                  <option>TOEFL completed</option>
+                  <option>Duolingo completed</option>
+                  <option>Not yet taken</option>
+                  <option>May be exempted</option>
+                </select>
+              </label>
+
+              <label>
+                Proof of Funds / Sponsorship *
+                <select name="funding" required>
+                  <option value="">Select</option>
+                  <option>Self-sponsored</option>
+                  <option>Parent/Guardian sponsored</option>
+                  <option>Sponsor available</option>
+                  <option>Need guidance on funding</option>
+                </select>
+              </label>
+
+              <label>
+                Budget Range (Tuition per year) *
+                <select name="budget" required>
+                  <option value="">Select</option>
+                  <option>Under $5,000</option>
+                  <option>$5,000 - $10,000</option>
+                  <option>$10,000 - $20,000</option>
+                  <option>$20,000+</option>
+                </select>
+              </label>
+            </div>
+
+            <fieldset class="checklist">
+              <legend>Available Documents (tick all that apply)</legend>
+              <label><input type="checkbox" name="docs" value="WAEC/NECO or equivalent" /> WAEC/NECO or equivalent</label>
+              <label><input type="checkbox" name="docs" value="Academic transcript" /> Academic transcript</label>
+              <label><input type="checkbox" name="docs" value="Statement of purpose" /> Statement of purpose</label>
+              <label><input type="checkbox" name="docs" value="CV/Resume" /> CV/Resume</label>
+              <label><input type="checkbox" name="docs" value="Reference letters" /> Reference letters</label>
+              <label><input type="checkbox" name="docs" value="International passport" /> International passport</label>
+            </fieldset>
+
+            <label>
+              Additional Information / Questions
+              <textarea name="notes" rows="5" placeholder="Tell us anything else we should know..."></textarea>
+            </label>
+
+            <label class="consent">
+              <input type="checkbox" name="consent" required />
+              I confirm that the information provided is correct.
+            </label>
+
+            <button type="submit" class="btn primary apply__submit">
+              Submit via WhatsApp
+            </button>
+          </form>
+        </article>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <div class="container site-footer__top">
+        <article class="site-footer__brand">
+          <a href="./index.html" class="site-footer__logo">
+            <img src="./images/samuel logo.jpeg" alt="ROCKSTAR Study Abroad logo" />
+            <span>ROCKSTAR <small>Study Abroad</small></span>
+          </a>
+          <p>
+            We help students access global education with expert support on admissions,
+            course selection, visa guidance, and post-arrival assistance.
+          </p>
+        </article>
+
+        <article>
+          <h4>Contact & Support</h4>
+          <ul class="site-footer__contact">
+            <li><i class="uil uil-map-marker"></i><span>Lagos, Nigeria</span></li>
+            <li><i class="uil uil-envelope"></i><a href="mailto:info@rockstarstudyabroad.com">info@rockstarstudyabroad.com</a></li>
+            <li><i class="uil uil-phone"></i><a href="tel:+2348052999040">+234 805 299 9040</a></li>
+          </ul>
+          <a href="./application-form.html" class="btn primary site-footer__cta">Apply Now</a>
+        </article>
+      </div>
+
+      <div class="container site-footer__bottom">
+        <p>POWERED BY: WHITEROCK EDUCATIONAL SERVICES</p>
+        <small>&copy; 2026 ROCKSTAR. All rights reserved.</small>
+      </div>
+    </footer>
+
+    <script src="./main.js"></script>
+    <script>
+      const form = document.getElementById('studyAbroadForm');
+      const consentCheckbox = form.querySelector('input[name="consent"]');
+
+      form.addEventListener('submit', (event) => {
+        event.preventDefault();
+
+        if (!consentCheckbox.checked) {
+          alert('Please confirm that the information provided is correct before submitting.');
+          consentCheckbox.focus();
+          return;
+        }
+
+        const formData = new FormData(form);
+        const selectedDocs = formData.getAll('docs');
+
+        const message = [
+          'Hi, I\'m interested in studying abroad.',
+          '',
+          '*Study Abroad Application Form*',
+          `Full Name: ${formData.get('fullName') || '-'}`,
+          `WhatsApp Number: ${formData.get('phone') || '-'}`,
+          `Email: ${formData.get('email') || '-'}`,
+          `Date of Birth: ${formData.get('dob') || '-'}`,
+          `Current Country: ${formData.get('country') || '-'}`,
+          `Current City: ${formData.get('city') || '-'}`,
+          '',
+          '*Academic Profile*',
+          `Highest Qualification: ${formData.get('qualification') || '-'}`,
+          `Intended Program: ${formData.get('intendedProgram') || '-'}`,
+          `Preferred Destination: ${formData.get('destination') || '-'}`,
+          `Preferred Intake: ${formData.get('intake') || '-'}`,
+          `Grade/GPA: ${formData.get('gpa') || '-'}`,
+          `Graduation Year: ${formData.get('graduationYear') || '-'}`,
+          '',
+          '*Requirements*',
+          `Passport Status: ${formData.get('passportStatus') || '-'}`,
+          `English Test: ${formData.get('englishTest') || '-'}`,
+          `Funding Plan: ${formData.get('funding') || '-'}`,
+          `Budget Range: ${formData.get('budget') || '-'}`,
+          `Available Documents: ${selectedDocs.length ? selectedDocs.join(', ') : 'None selected'}`,
+          '',
+          `Additional Notes: ${formData.get('notes') || '-'}`
+        ].join('\n');
+
+        const whatsappUrl = `https://wa.me/2348052999040?text=${encodeURIComponent(message)}`;
+        window.open(whatsappUrl, '_blank');
+      });
+    </script>
+  </body>
+</html>
