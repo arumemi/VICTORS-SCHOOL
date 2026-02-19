@@ -80,3 +80,25 @@ if (prefersDark.addEventListener) {
       }
    });
 }
+
+const destinationWhatsappBase = 'https://wa.me/2348052999040';
+
+document.querySelectorAll('.destination__card-btn').forEach((button) => {
+   const card = button.closest('.destination__card');
+   if (!card) {
+      return;
+   }
+
+   const destinationName = card.querySelector('.destination__card-header h3')?.textContent.trim();
+   const locationName = card.querySelector('.destination__card-location span')?.textContent.trim();
+
+   let destinationLabel = destinationName || locationName || 'this destination';
+
+   if (destinationName && locationName && destinationName.toLowerCase() !== locationName.toLowerCase()) {
+      destinationLabel = `${destinationName} (${locationName})`;
+   }
+
+   const whatsappMessage = `Hi, I'm interested in studying abroad in ${destinationLabel}. Please share more information.`;
+   button.href = `${destinationWhatsappBase}?text=${encodeURIComponent(whatsappMessage)}`;
+   button.setAttribute('aria-label', `Learn more about ${destinationLabel} on WhatsApp`);
+});

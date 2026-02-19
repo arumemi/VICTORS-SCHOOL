@@ -20,7 +20,7 @@ section{
    min-height: 100vh;
    background: linear-gradient( var(--color-gray-0), var(--color-gray-100));
 }
-body.dark.hero{
+body.dark .hero{
     background: linear-gradient( var(--color-gray-200), var(--color-gray-0));
 }
 
@@ -441,6 +441,9 @@ footer * {
 /*==========media queries for tablet screens==========*/
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
+   section{
+      padding: 9rem 0;
+   }
    .hero{
       padding-top: 8rem;
    }
@@ -459,10 +462,17 @@ footer * {
       grid-template-columns: repeat(3, 1fr);
       gap: 2rem;
       margin-top: 4rem;
+      width: 100%;
+      max-width: 100%;
    }
    .hero__image{
-      height: 20rem;
+      height: 16rem;
       border-radius: var(--radius-5);
+      transform: none;
+   }
+   .hero__image:nth-child(1),
+   .hero__image:nth-child(3){
+      transform: none;
    }
    .hero__image:nth-child(4), .hero__image:nth-child(5){
       display: none;
