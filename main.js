@@ -5,16 +5,34 @@ const navMenuClose = document.querySelector('.nav__menu-close');
 
 const TABLET_BREAKPOINT = 1024;
 
+
 const showMenu = () => {
    navMenu.style.display = 'flex';
    navMenuOpen.style.display = 'none';
    navMenuClose.style.display = 'inline-block';
+   // Show nav links for tablet/mobile
+   if (window.innerWidth <= TABLET_BREAKPOINT) {
+      navMenu.querySelectorAll('a').forEach((link, i) => {
+         link.style.opacity = '1';
+         link.style.transform = 'rotateX(0)';
+         link.style.transition = 'opacity 0.3s, transform 0.3s';
+      });
+   }
 };
+
 
 const hideMenu = () => {
    navMenu.style.display = 'none';
    navMenuOpen.style.display = 'inline-block';
    navMenuClose.style.display = 'none';
+   // Hide nav links for tablet/mobile
+   if (window.innerWidth <= TABLET_BREAKPOINT) {
+      navMenu.querySelectorAll('a').forEach((link) => {
+         link.style.opacity = '';
+         link.style.transform = '';
+         link.style.transition = '';
+      });
+   }
 };
 
 const syncMenuToViewport = () => {

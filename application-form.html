@@ -71,38 +71,38 @@
         </article>
 
         <article class="apply__form-wrap">
-          <form id="studyAbroadForm" class="apply__form">
+          <form id="studyAbroadForm" class="apply__form" action="mailto:rolayofaps@gmail.com" method="post" enctype="text/plain">
             <h3>Applicant Details</h3>
 
             <div class="form__grid">
               <label>
-                Full Name *
-                <input type="text" name="fullName" required />
+                Applicant Full Name *
+                <input type="text" name="Applicant Full Name" required />
               </label>
 
               <label>
                 WhatsApp Number *
-                <input type="tel" name="phone" placeholder="e.g. +234 801 234 5678" required />
+                <input type="tel" name="WhatsApp Number" placeholder="e.g. +234 801 234 5678" required />
               </label>
 
               <label>
                 Email Address *
-                <input type="email" name="email" required />
+                <input type="email" name="Email Address" required />
               </label>
 
               <label>
                 Date of Birth *
-                <input type="date" name="dob" required />
+                <input type="date" name="Date of Birth" required />
               </label>
 
               <label>
                 Current Country *
-                <input type="text" name="country" required />
+                <input type="text" name="Current Country" required />
               </label>
 
               <label>
                 Current City *
-                <input type="text" name="city" required />
+                <input type="text" name="Current City" required />
               </label>
             </div>
 
@@ -110,7 +110,7 @@
             <div class="form__grid">
               <label>
                 Highest Qualification *
-                <select name="qualification" required>
+                <select name="Highest Qualification" required>
                   <option value="">Select</option>
                   <option>High School</option>
                   <option>Diploma</option>
@@ -123,7 +123,7 @@
 
               <label>
                 Intended Program *
-                <select name="intendedProgram" required>
+                <select name="Intended Program" required>
                   <option value="">Select</option>
                   <option>High School</option>
                   <option>Foundation</option>
@@ -137,22 +137,22 @@
 
               <label>
                 Preferred Destination *
-                <input type="text" name="destination" placeholder="e.g. UK, Canada, Germany" required />
+                <input type="text" name="Preferred Destination" placeholder="e.g. UK, Canada, Germany" required />
               </label>
 
               <label>
                 Preferred Intake *
-                <input type="text" name="intake" placeholder="e.g. September 2026" required />
+                <input type="text" name="Preferred Intake" placeholder="e.g. September 2026" required />
               </label>
 
               <label>
                 Grade / GPA (if available)
-                <input type="text" name="gpa" placeholder="e.g. 3.2/4.0 or Second Class Upper" />
+                <input type="text" name="Grade or GPA" placeholder="e.g. 3.2/4.0 or Second Class Upper" />
               </label>
 
               <label>
                 Year of Graduation
-                <input type="number" name="graduationYear" min="1980" max="2100" />
+                <input type="number" name="Year of Graduation" min="1980" max="2100" />
               </label>
             </div>
 
@@ -160,7 +160,7 @@
             <div class="form__grid">
               <label>
                 Passport Status *
-                <select name="passportStatus" required>
+                <select name="Passport Status" required>
                   <option value="">Select</option>
                   <option>I have a valid passport</option>
                   <option>Passport expired</option>
@@ -170,7 +170,7 @@
 
               <label>
                 English Test Status *
-                <select name="englishTest" required>
+                <select name="English Test Status" required>
                   <option value="">Select</option>
                   <option>IELTS completed</option>
                   <option>TOEFL completed</option>
@@ -182,7 +182,7 @@
 
               <label>
                 Proof of Funds / Sponsorship *
-                <select name="funding" required>
+                <select name="Proof of Funds or Sponsorship" required>
                   <option value="">Select</option>
                   <option>Self-sponsored</option>
                   <option>Parent/Guardian sponsored</option>
@@ -193,7 +193,7 @@
 
               <label>
                 Budget Range (Tuition per year) *
-                <select name="budget" required>
+                <select name="Budget Range (Tuition per year)" required>
                   <option value="">Select</option>
                   <option>Under $5,000</option>
                   <option>$5,000 - $10,000</option>
@@ -205,27 +205,26 @@
 
             <fieldset class="checklist">
               <legend>Available Documents (tick all that apply)</legend>
-              <label><input type="checkbox" name="docs" value="WAEC/NECO or equivalent" /> WAEC/NECO or equivalent</label>
-              <label><input type="checkbox" name="docs" value="Academic transcript" /> Academic transcript</label>
-              <label><input type="checkbox" name="docs" value="Statement of purpose" /> Statement of purpose</label>
-              <label><input type="checkbox" name="docs" value="CV/Resume" /> CV/Resume</label>
-              <label><input type="checkbox" name="docs" value="Reference letters" /> Reference letters</label>
-              <label><input type="checkbox" name="docs" value="International passport" /> International passport</label>
+              <label><input type="checkbox" name="Available Documents" value="WAEC/NECO or equivalent" /> WAEC/NECO or equivalent</label>
+              <label><input type="checkbox" name="Available Documents" value="Academic transcript" /> Academic transcript</label>
+              <label><input type="checkbox" name="Available Documents" value="Statement of purpose" /> Statement of purpose</label>
+              <label><input type="checkbox" name="Available Documents" value="CV/Resume" /> CV/Resume</label>
+              <label><input type="checkbox" name="Available Documents" value="Reference letters" /> Reference letters</label>
+              <label><input type="checkbox" name="Available Documents" value="International passport" /> International passport</label>
             </fieldset>
 
             <label>
               Additional Information / Questions
-              <textarea name="notes" rows="5" placeholder="Tell us anything else we should know..."></textarea>
+              <textarea name="Additional Information or Questions" rows="5" placeholder="Tell us anything else we should know..."></textarea>
             </label>
 
             <label class="consent">
-              <input type="checkbox" name="consent" required />
+              <input type="checkbox" name="Consent Confirmed" required />
               I confirm that the information provided is correct.
             </label>
 
-            <button type="submit" class="btn primary apply__submit">
-              Submit via WhatsApp
-            </button>
+            
+            <button type="submit" class="btn primary apply__submit">Apply</button>
           </form>
         </article>
       </div>
@@ -263,54 +262,5 @@
     </footer>
 
     <script src="./main.js"></script>
-    <script>
-      const form = document.getElementById('studyAbroadForm');
-      const consentCheckbox = form.querySelector('input[name="consent"]');
-
-      form.addEventListener('submit', (event) => {
-        event.preventDefault();
-
-        if (!consentCheckbox.checked) {
-          alert('Please confirm that the information provided is correct before submitting.');
-          consentCheckbox.focus();
-          return;
-        }
-
-        const formData = new FormData(form);
-        const selectedDocs = formData.getAll('docs');
-
-        const message = [
-          'Hi, I\'m interested in studying abroad.',
-          '',
-          '*Study Abroad Application Form*',
-          `Full Name: ${formData.get('fullName') || '-'}`,
-          `WhatsApp Number: ${formData.get('phone') || '-'}`,
-          `Email: ${formData.get('email') || '-'}`,
-          `Date of Birth: ${formData.get('dob') || '-'}`,
-          `Current Country: ${formData.get('country') || '-'}`,
-          `Current City: ${formData.get('city') || '-'}`,
-          '',
-          '*Academic Profile*',
-          `Highest Qualification: ${formData.get('qualification') || '-'}`,
-          `Intended Program: ${formData.get('intendedProgram') || '-'}`,
-          `Preferred Destination: ${formData.get('destination') || '-'}`,
-          `Preferred Intake: ${formData.get('intake') || '-'}`,
-          `Grade/GPA: ${formData.get('gpa') || '-'}`,
-          `Graduation Year: ${formData.get('graduationYear') || '-'}`,
-          '',
-          '*Requirements*',
-          `Passport Status: ${formData.get('passportStatus') || '-'}`,
-          `English Test: ${formData.get('englishTest') || '-'}`,
-          `Funding Plan: ${formData.get('funding') || '-'}`,
-          `Budget Range: ${formData.get('budget') || '-'}`,
-          `Available Documents: ${selectedDocs.length ? selectedDocs.join(', ') : 'None selected'}`,
-          '',
-          `Additional Notes: ${formData.get('notes') || '-'}`
-        ].join('\n');
-
-        const whatsappUrl = `https://wa.me/2348052999040?text=${encodeURIComponent(message)}`;
-        window.open(whatsappUrl, '_blank');
-      });
-    </script>
   </body>
 </html>
