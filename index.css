@@ -42,12 +42,12 @@ body.dark .hero{
    justify-content: center;
 }
 .hero__images{
-   width: fit-content;
-   margin-inline: auto;
-   display: grid;
-   grid-template-columns: repeat(5, 1fr); 
-   gap: 4rem;
-   justify-content: space-between;
+    width: fit-content;
+    margin-inline: auto;
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      gap: 4rem;
+      justify-content: space-between;
    margin-top: 5rem;
 }
 .hero__image{
