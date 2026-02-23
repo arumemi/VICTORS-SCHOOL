@@ -159,6 +159,14 @@ body.dark .hero{
    grid-template-columns: 1fr 1fr;
    gap: 10rem;
 }
+/* Tablet: Stack about section image above writeup */
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+   .about__container {
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+   }
+}
 .about__left{ 
    border-radius: 7rem;
    overflow: hidden;
@@ -581,11 +589,7 @@ footer * {
       object-fit: cover;
       border-radius: 3rem;
    }
-   .about__container {
-      grid-template-columns: 1fr 1fr;
-      gap: 3rem;
-      align-items: center;
-   }
+   /* .about__container grid styles removed for tablet to allow flex-direction: column-reverse to work */
    .about__left {
       border-radius: 3rem;
       box-shadow: 0 1rem 0 var(--color-gray-100);
