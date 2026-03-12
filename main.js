@@ -99,6 +99,94 @@ if (prefersDark.addEventListener) {
    });
 }
 
+const imageViewportBuffer = 200;
+
+const applyLazyLoadingToOffscreenImages = () => {
+   const viewportBottom = window.innerHeight + imageViewportBuffer;
+   const viewportTop = -imageViewportBuffer;
+
+   document.querySelectorAll('img').forEach((image, index) => {
+      if (!image.hasAttribute('decoding')) {
+         image.decoding = 'async';
+      }
+
+      if (image.hasAttribute('loading') || image.dataset.noLazy === 'true') {
+         return;
+      }
+
+      const rect = image.getBoundingClientRect();
+      const isOffscreen = rect.top > viewportBottom || rect.bottom < viewportTop;
+
+      if (isOffscreen) {
+         image.loading = 'lazy';
+         if (!image.hasAttribute('fetchpriority')) {
+            image.setAttribute('fetchpriority', 'low');
+         }
+         return;
+      }
+
+      const isLikelyHeroImage = Boolean(image.closest('header, .header, .hero, .landing, .home'));
+      if (index === 0 || isLikelyHeroImage) {
+         image.loading = 'eager';
+         if (!image.hasAttribute('fetchpriority')) {
+            image.setAttribute('fetchpriority', 'high');
+         }
+      }
+   });
+};
+
+if (document.readyState === 'complete') {
+   applyLazyLoadingToOffscreenImages();
+} else {
+   window.addEventListener('load', applyLazyLoadingToOffscreenImages, { once: true });
+}
+
+const elfsightScriptUrl = 'https://elfsightcdn.com/platform.js';
+
+const loadElfsightScript = () => {
+   if (document.querySelector(`script[src="${elfsightScriptUrl}"]`)) {
+      return;
+   }
+
+   const script = document.createElement('script');
+   script.src = elfsightScriptUrl;
+   script.async = true;
+   document.body.appendChild(script);
+};
+
+const initLazyElfsightWidget = () => {
+   const widget = document.querySelector('[data-elfsight-app-lazy]');
+   if (!widget) {
+      return;
+   }
+
+   if (!('IntersectionObserver' in window)) {
+      loadElfsightScript();
+      return;
+   }
+
+   const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+         if (!entry.isIntersecting) {
+            return;
+         }
+
+         loadElfsightScript();
+         observer.disconnect();
+      });
+   }, {
+      rootMargin: '300px 0px'
+   });
+
+   observer.observe(widget);
+};
+
+if (document.readyState === 'complete') {
+   initLazyElfsightWidget();
+} else {
+   window.addEventListener('load', initLazyElfsightWidget, { once: true });
+}
+
 const destinationWhatsappBase = 'https://wa.me/2348052999040';
 
 document.querySelectorAll('.destination__card-btn').forEach((button) => {
