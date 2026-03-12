@@ -1,8 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-
 :root{
    --color-primary:#02a1df ;
    --color-primary-varient : #f9f22f;
@@ -50,7 +46,7 @@ html{
    overflow-x: hidden;
 }
 body{
-   font-family: "Montserrat" , sans-serif;
+   font-family: Inter, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
    color: var(--color-gray-600);
    line-height: 1.6;
    background-color: var(--color-gray-50);
@@ -79,6 +75,22 @@ body{
    margin-inline: auto;
 
 }
+
+.skip-link {
+   position: absolute;
+   top: -40px;
+   left: 1rem;
+   z-index: 9999;
+   background: #111;
+   color: #fff;
+   padding: 0.6rem 1rem;
+   border-radius: 0.4rem;
+}
+
+.skip-link:focus {
+   top: 0.75rem;
+}
+
 a{
    color: var(--color-gray-900);
 }

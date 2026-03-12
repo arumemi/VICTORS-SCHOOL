@@ -3,14 +3,24 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+   <link rel="dns-prefetch" href="//cdn.jsdelivr.net">
+   <link rel="dns-prefetch" href="//unicons.iconscout.com">
+   <link rel="dns-prefetch" href="//elfsightcdn.com">
+   <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+   <link rel="preconnect" href="https://unicons.iconscout.com" crossorigin>
+   <link rel="preconnect" href="https://elfsightcdn.com" crossorigin>
    <!--icon is choosen from iconscout site-->
    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.2.0/css/line.css">
-   <title>opening/index- ROCKSTAR.</title>
+   <title>ROCKSTAR Study Abroad | Admissions, Visa & Global Education Support</title>
    <meta name="description" content="ROCKSTAR Study Abroad helps students access international education with trusted guidance, admissions support, and visa assistance.">
+   <meta name="robots" content="index, follow">
+   <meta name="theme-color" content="#02a1df">
+   <link rel="canonical" href="https://rockstarstudyabroad.com/">
    <meta property="og:type" content="website">
    <meta property="og:site_name" content="ROCKSTAR Study Abroad">
    <meta property="og:title" content="ROCKSTAR Study Abroad">
    <meta property="og:description" content="Start your study abroad journey with expert support from ROCKSTAR Study Abroad.">
+   <meta property="og:url" content="https://rockstarstudyabroad.com/">
    <meta property="og:image" content="/images/samuel%20logo.jpeg">
    <meta property="og:image:type" content="image/jpeg">
    <meta property="og:image:width" content="500">
@@ -20,12 +30,11 @@
    <meta name="twitter:title" content="ROCKSTAR Study Abroad">
    <meta name="twitter:description" content="Start your study abroad journey with expert support from ROCKSTAR Study Abroad.">
    <meta name="twitter:image" content="/images/samuel%20logo.jpeg">
+   <link rel="preload" as="image" href="./images/female bpp student.jpg" fetchpriority="high">
    <link rel="icon" type="image/jpeg" href="./images/samuel logo.jpeg">
    <!-- Swiper.js for carousel -->
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-   
-  <!-- Link for animation Swiper's CSS -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
    <!--css style-->
    <link rel="stylesheet" href="style.css">
    <link rel="stylesheet" href="index.css">
@@ -34,11 +43,12 @@
 
 </head>
 <body >
-   <nav>
+   <a class="skip-link" href="#main-content">Skip to main content</a>
+   <nav aria-label="Primary">
       <div class="container nav__container">
             <a href="./index.html" class="nav__logo">
                <img src="./images/samuel logo.jpeg" alt="ROCKSTAR Study Abroad">
-               <h1 class="logo-text">ROCKSTAR<br>STUDY ABROAD</h1>
+               <span class="logo-text">ROCKSTAR<br>STUDY ABROAD</span>
         </a>
         
 
@@ -53,9 +63,9 @@
          <a href="./contact/contact.html">Contact Us</a>
          <a href="./application-form.html">Apply Now</a>
         </menu>
-        <button class="theme__btn"><i class="uil uil-moon"></i></button>
-        <button class="nav__menu-open"><i class="uil uil-bars"></i></button>
-        <button class="nav__menu-close"><i class="uil uil-multiply"></i></button>
+      <button type="button" class="theme__btn" aria-label="Toggle dark mode"><i class="uil uil-moon"></i></button>
+      <button type="button" class="nav__menu-open" aria-label="Open navigation menu"><i class="uil uil-bars"></i></button>
+      <button type="button" class="nav__menu-close" aria-label="Close navigation menu"><i class="uil uil-multiply"></i></button>
        
       </div>
 </div> </nav> 
@@ -65,6 +75,7 @@
 
  
 
+<main id="main-content">
 <!--===========Welcome hero Section=============--> <section class="hero"> <div class="container hero__container">
       <article class="hero__content">
          <h1>study abroad!</h1>
@@ -78,21 +89,21 @@
         </article>
          <article class="hero__images">
          <div class="hero__image">
-                     <img src="./images/female bpp student.jpg" alt="">
+                     <img src="./images/female bpp student.jpg" alt="Student celebrating a successful study abroad admission" fetchpriority="high" decoding="async">
                   </div>
 
             <div class="hero__image">
-                     <img src="./images/YSJ.jpg" alt="">
+                     <img src="./images/YSJ.jpg" alt="Students on campus at a partner university" loading="lazy" decoding="async">
                   </div>
 
             <div class="hero__image">
-                     <img src="./images/group of graduting student.jpg" alt="">
+                     <img src="./images/group of graduting student.jpg" alt="Group of international graduates" loading="lazy" decoding="async">
                   </div>
             <div class="hero__image">
-                     <img src="./images/bpp student.jpeg" alt="">
+                     <img src="./images/bpp student.jpeg" alt="Student from BPP partner pathway" loading="lazy" decoding="async">
                   </div>
             <div class="hero__image">
-                     <img src="./images/male graduting student and parents.jpg" alt="">
+                     <img src="./images/male graduting student and parents.jpg" alt="Graduate with family after completing studies" loading="lazy" decoding="async">
                   </div>
 
          </article>
@@ -109,7 +120,7 @@
       <section class="about" >
          <div class="container about__container">
             <article class="about__left">
-               <img src="./images/office setting.jpg" alt="">
+               <img src="./images/office setting.jpg" alt="ROCKSTAR Study Abroad counseling office" loading="lazy" decoding="async">
             </article>
              <article class="about__right">
                <header class="section__header">
@@ -149,7 +160,7 @@
             <ul class="ourPrograms__list">
                <li class="ourPrograms__item" >
                   <div class="ourPrograms__item-image">
-                     <img src="./images/mers foto 1.webp" alt="regent uni">
+                     <img src="./images/mers foto 1.webp" alt="regent uni" loading="lazy" decoding="async">
                   </div>
                   <div class="ourPrograms__item-content">
                      <h4>bachelor of science</h4>
@@ -159,7 +170,7 @@
 
                 <li class="ourPrograms__item">
                   <div class="ourPrograms__item-image">
-                     <img src="./images/black-ladies-embracing.jpg" alt="regent uni">
+                     <img src="./images/black-ladies-embracing.jpg" alt="regent uni" loading="lazy" decoding="async">
                   </div>
                   <div class="ourPrograms__item-content">
                      <h4>masters</h4>
@@ -171,7 +182,7 @@
 
                 <li class="ourPrograms__item">
                   <div class="ourPrograms__item-image">
-                     <img src="./images/studing with lapto p in class.jpg" alt="regent uni">
+                     <img src="./images/studing with lapto p in class.jpg" alt="regent uni" loading="lazy" decoding="async">
                   </div>
                   <div class="ourPrograms__item-content">
                      <h4>top up programs</h4>
@@ -181,7 +192,7 @@
 
                 <li class="ourPrograms__item">
                   <div class="ourPrograms__item-image">
-                     <img src="./images/black boy studying.jpg" alt="regent uni">
+                     <img src="./images/black boy studying.jpg" alt="regent uni" loading="lazy" decoding="async">
                   </div>
                   <div class="ourPrograms__item-content">
                      <h4>online programs</h4>
@@ -191,7 +202,7 @@
 
                 <li class="ourPrograms__item">
                   <div class="ourPrograms__item-image">
-                     <img src="./images/h2 students.jpg" alt="">
+                     <img src="./images/h2 students.jpg" alt="" loading="lazy" decoding="async">
                   </div>
                   <div class="ourPrograms__item-content">
                      <h4>high school and summer camp</h4>
@@ -342,7 +353,7 @@
                </p>
                <div class="testimonial__client">
                   <div class="testimonial__client-image">
-                     <img src="images/testimony 001.jpeg" alt="">
+                     <img src="images/testimony 001.jpeg" alt="" loading="lazy" decoding="async">
                   </div>
                   <div class="testimonial__client-info">
                      <h5>sarah Ochie</h5>
@@ -358,7 +369,7 @@
                </p>
                <div class="testimonial__client">
                   <div class="testimonial__client-image">
-                     <img src="images/testimony 002.jpeg" alt="">
+                     <img src="images/testimony 002.jpeg" alt="" loading="lazy" decoding="async">
                   </div>
                   <div class="testimonial__client-info">
                      <h5>Ola Ezekial</h5>
@@ -374,7 +385,7 @@
                </p>
                <div class="testimonial__client">
                   <div class="testimonial__client-image">
-                     <img src="images/testimony005.jpg" alt="">
+                     <img src="images/testimony005.jpg" alt="" loading="lazy" decoding="async">
                   </div>
                   <div class="testimonial__client-info">
                      <h5>micheal ilohi</h5>
@@ -390,7 +401,7 @@
                </p>
                <div class="testimonial__client">
                   <div class="testimonial__client-image">
-                     <img src="./images/testimony009.jpg" alt="">
+                     <img src="./images/testimony009.jpg" alt="" loading="lazy" decoding="async">
                   </div>
                   <div class="testimonial__client-info">
                      <h5>haruna</h5>
@@ -407,7 +418,7 @@
                </p>
                <div class="testimonial__client">
                   <div class="testimonial__client-image">
-                     <img src="images/testimony007.jpeg" alt="">
+                     <img src="images/testimony007.jpeg" alt="" loading="lazy" decoding="async">
                   </div>
                   <div class="testimonial__client-info">
                      <h5>laila mustapha</h5>
@@ -426,7 +437,7 @@
                </p>
                <div class="testimonial__client">
                   <div class="testimonial__client-image">
-                     <img src="images/testimony006.jpeg" alt="">
+                     <img src="images/testimony006.jpeg" alt="" loading="lazy" decoding="async">
                   </div>
                   <div class="testimonial__client-info">
                      <h5>precious AMADI</h5>
@@ -443,6 +454,7 @@
 
          </div>
       </section>
+   </main>
 <!--WATSAPP CODE-->
       <div class="elfsight-app-16623bbb-d0dc-4e1b-9173-9f804e10aefb" data-elfsight-app-lazy></div>
 
@@ -451,7 +463,7 @@
          <div class="container site-footer__top">
             <article class="site-footer__brand">
                <a href="./index.html" class="site-footer__logo">
-                  <img src="./images/samuel logo.jpeg" alt="ROCKSTAR Study Abroad logo">
+                  <img src="./images/samuel logo.jpeg" alt="ROCKSTAR Study Abroad logo" loading="lazy" decoding="async">
                   <span>ROCKSTAR <small>Study Abroad</small></span>
                </a>
                <p>
@@ -487,16 +499,16 @@
                   <li><i class="uil uil-clock"></i><span>Mon - Sat: 9:00 AM - 6:00 PM</span></li>
                </ul>
                       <div class="site-footer__socials">
-                           <a href="javascript:void(0)" aria-label="Instagram">
+                           <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                               <i class="uil uil-instagram-alt"></i>
                            </a>
-                           <a href="javascript:void(0)" aria-label="Facebook">
+                           <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                               <i class="uil uil-facebook"></i>
                            </a>
-                           <a href="javascript:void(0)" aria-label="Twitter">
+                           <a href="https://x.com/" target="_blank" rel="noopener noreferrer" aria-label="X (Twitter)">
                               <i class="uil uil-twitter"></i>
                            </a>
-                           <a href="javascript:void(0)" aria-label="LinkedIn">
+                           <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                               <i class="uil uil-linkedin"></i>
                            </a>
                </div>
@@ -515,49 +527,11 @@
          </div>
       </footer>
    
-
-
-
-
- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-   
-
-
- 
-   <script src="https://elfsightcdn.com/platform.js" async></script>
-  <script>
-    
-  </script>
-   <script src="./main.js"></script>
-   <script src="./index.js"></script>
+   <script defer src="./main.js"></script>
+   <script defer src="./index.js"></script>
    <!-- Floating WhatsApp Button -->
-   <a href="https://wa.me/2348052999040?text=Hello%20Rockstar%20Study%20Abroad%2C%20I%20would%20like%20to%20make%20an%20enquiry." class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
+   <a href="https://wa.me/2348052999040?text=Hello%20Rockstar%20Study%20Abroad%2C%20I%20would%20like%20to%20make%20an%20enquiry." class="whatsapp-float" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
       <i class="uil uil-whatsapp"></i>
    </a>
 </body>
-</body>
-<!-- Floating WhatsApp Button -->
-<a href="https://wa.me/2348052999040?text=Hello%20Rockstar%20Study%20Abroad%2C%20I%20would%20like%20to%20make%20an%20enquiry." class="floating-whatsapp" target="_blank" aria-label="Chat on WhatsApp">
-   <img src="./images/whatsapp-icon.png" alt="WhatsApp" style="width:48px;height:48px;">
-</a>
-<style>
-   .floating-whatsapp {
-      position: fixed;
-      right: 24px;
-      bottom: 24px;
-      z-index: 1000;
-      background: #25d366;
-      border-radius: 50%;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.18);
-      padding: 8px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      transition: box-shadow 0.2s;
-   }
-   .floating-whatsapp:hover {
-      box-shadow: 0 4px 16px rgba(0,0,0,0.28);
-      background: #20ba5a;
-   }
-</style>
 </html>

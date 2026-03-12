@@ -1,19 +1,76 @@
-  //start Swiper JS -->//
+//start Swiper JS -->//
 
+const swiperScriptUrl = 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js';
+let hasInitializedSwiper = false;
 
-    var swiper = new Swiper(".mySwiper", {
+const initSwiper = () => {
+   if (hasInitializedSwiper || typeof Swiper === 'undefined') {
+      return;
+   }
+
+   hasInitializedSwiper = true;
+   new Swiper('.mySwiper', {
       pagination: {
-        el: ".swiper-pagination",
-        clickable: true
+         el: '.swiper-pagination',
+         clickable: true
       },
-      slidesPerView:1,
-      spaceBetween : 50,
-      breakpoints:{
-      599: {
-        slidesPerView: 3
+      slidesPerView: 1,
+      spaceBetween: 50,
+      breakpoints: {
+         599: {
+            slidesPerView: 3
+         }
       }
-      }
-    });
+   });
+};
+
+const loadSwiperScript = () => {
+   if (typeof Swiper !== 'undefined') {
+      initSwiper();
+      return;
+   }
+
+   const existingScript = document.querySelector(`script[src="${swiperScriptUrl}"]`);
+   if (existingScript) {
+      existingScript.addEventListener('load', initSwiper, { once: true });
+      return;
+   }
+
+   const script = document.createElement('script');
+   script.src = swiperScriptUrl;
+   script.defer = true;
+   script.addEventListener('load', initSwiper, { once: true });
+   document.body.appendChild(script);
+};
+
+const observeTestimonialsForSwiper = () => {
+   const testimonialsSection = document.querySelector('.testimonials');
+   if (!testimonialsSection) {
+      return;
+   }
+
+   if (!('IntersectionObserver' in window)) {
+      loadSwiperScript();
+      return;
+   }
+
+   const observer = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+         if (!entry.isIntersecting) {
+            return;
+         }
+
+         loadSwiperScript();
+         observer.disconnect();
+      });
+   }, {
+      rootMargin: '300px 0px'
+   });
+
+   observer.observe(testimonialsSection);
+};
+
+observeTestimonialsForSwiper();
 
       //starting annimation//
 

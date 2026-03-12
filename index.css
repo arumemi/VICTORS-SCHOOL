@@ -83,6 +83,12 @@ section{
    overflow-x: hidden;
 
 }
+
+.hero ~ section {
+   content-visibility: auto;
+   contain-intrinsic-size: 1px 900px;
+}
+
 .section__header{
    text-align: center;
 }
